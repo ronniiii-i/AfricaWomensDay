@@ -1,0 +1,405 @@
+@import url("./nav.css");
+@import url("./footer.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    /* border: 1px solid red; */
+}
+
+/* .generalContainer{
+    border: 1px solid green;
+} */
+
+
+
+/* .animate{
+    animation: 1s ease-out 0s 1 slideInLeft; 
+
+} */
+
+.imageContainer > img{
+    width: 100%;
+    margin-top: 80px; 
+    
+}
+
+/* @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  } */
+
+
+
+
+/* .flagPeople{
+    position: absolute;
+    top: 75%;
+    left: 100px;
+} */
+
+/* .curvedContainer{
+    height: 800px;
+    background-image: url("./images/bgImg1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid green;   
+} */
+
+/* writing the section2 css */
+
+/* .section2{
+    border: 3px solid magenta;
+} */
+
+.subsection2{
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.subSectionWriteUp{
+    margin-top: 37px;
+}
+
+.subSectionWriteUp p{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.subSection2Images{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+}
+
+.image1Cont{
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 -6px 7px -7px grey inset;
+    /* border: 1px solid magenta; */
+  
+}
+
+.imageDisplay{
+    width: 98%;
+    height: 377.6px;
+    /* animation: 2s ease-out 0s 1 FadeIn; */
+}
+
+.moveUp{
+    animation-duration: 2s;
+}
+
+.moveUp:hover{
+    animation-name: bounce;
+    animation-timing-function: ease;
+
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+  }
+
+.image1Cont p{
+    margin-top: 20px;
+}
+
+.writeUpAfterImage{
+    margin-top: 154px;
+    /* border: 1px solid red; */
+}
+
+.writeUpAfterImage h1, p{
+    margin-bottom: 30px;
+}
+
+.writeUpAfterImage  p{
+    font-size: 25px;
+}
+
+.learnBtn{
+    width: 358px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:#3175A1;
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* .image2Div{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid red;
+    
+ } */
+ 
+ .ourPartner{
+     max-width: 80%;
+     margin: 0 auto;
+     margin-top: 154px;
+     font-size: 30px;
+ }
+ 
+ .supporters{
+     max-width: 80%;
+     margin: 0 auto;
+     margin-top: 35px;
+     font-size: 30px;
+ }
+
+ .sponsorsBtn{
+    height: 50px;
+    width: 191px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3175A1;
+    color: #FFFF;
+    margin-top: 30px;
+ }
+ 
+  .image2Img{
+  position: relative;
+  top: 30px;
+  /* border: 1px solid blue; */
+ } 
+ 
+ 
+ .bgimg2{
+  display: flex;
+  justify-content: flex-end;
+  /* border: 1px solid red; */
+ 
+ }
+
+ .non{
+    padding-top: 120px;
+ }
+
+ .writeAndImg{
+    width: 80%;
+    left: 10%;
+    top: 15%;
+    position: absolute;
+    color: #FFFF;
+    display: flex;
+    font-size: 28px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+ }
+
+ .writeAndImg p{
+    margin-top: 15px;
+ }
+
+ .writeAndImg button {
+    width: 165px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #3175A1;
+    border: none;
+   
+ }
+
+ .writeAndImg button a{
+    text-decoration: none;
+    color: #FFFF;
+    font-size: 30px;
+ }
+
+ .partnerImg_div{
+    margin-top: 51px;
+    
+ }
+
+ .partnerImg_div > img{
+    width: 100%;
+}
+
+.events{
+    width: 653px;
+    /* border: 2px solid yellow; */
+    margin: 0 auto;
+    margin-top: 154px;
+}
+
+.upcomingEvents{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.event1,.event2{
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-between; */
+    /* border: 1px solid blue; */
+}
+
+.event2{
+    margin-top: 30px;
+}
+
+.innerCont1, .innerCont2{
+    width: 430px;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    box-shadow: 0px 0px 5px grey;
+    /* border: 1px solid fuchsia; */
+}
+
+.innerContWriteUp{
+    margin-top: 49px;
+}
+
+.eventDate, .eventDate2{
+    width: 100px;
+    height: 403px;
+    color: #FFFF;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D21116;
+}
+
+.readmoreBtn a{
+    width: 127px;
+    height: 50px;
+    font-size: 20px;
+    background-color:#D21116;
+    text-decoration: none;
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.readmoreBtn a:hover{
+    background-color: black;
+    animation: FadeIn 1s ease-in-out 0s 1;
+}
+
+.girls{
+    color: #D21116;
+}
+
+@media only screen and (max-width:600px){
+    .image2Img{
+        display: none;
+    }
+    
+    .events{
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .non{
+        padding-top: 40px;
+     }
+
+     .non p{
+        display: none;
+     }
+
+     .non h2{
+        font-size: 29px;
+     }
+
+    .writeAndImg{
+        top: 10%;
+     }
+     .writeAndImg p{
+        margin-top: 10px;
+     }
+
+     .writeAndImg button a{
+        font-size: 18px;
+     }
+
+     .subSectionWriteUp p{
+        font-size: 20px;
+    }
+
+    .writeUpAfterImage{
+        margin-top: 90px;
+        /* border: 1px solid red; */
+    }
+    
+    .writeUpAfterImage h1, p{
+        margin-bottom: 30px;
+    }
+    
+    .writeUpAfterImage h1, p{
+        font-size: 20px;
+    }
+
+    .learnBtn{
+        width: 70%;
+        font-size: 20px;
+    }
+
+    .ourPartner, .supporters h2, .upcomingEvents h2{
+        font-size: 20px;
+    }
+
+    .ourPartner{
+        margin-top: 90px;
+    }
+
+    .sponsorsBtn{
+        height: 40px;
+        width: 140px;
+        font-size: 20px;
+        background-color: #3175A1;
+        color: #FFFF;
+        margin-top: 20px;
+     }
+
+     .events{
+        margin-top: 50px;
+     }
+
+    .event1,.event2{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .innerCont1, .innerCont2{
+        width: auto;
+        display: flex;
+        gap: 10px;
+        font-size: 10px;
+        box-shadow: 0px 0px 5px grey;
+        /* border: 1px solid fuchsia; */
+    }
+    
+
+ 
+
+}
+
+
+
+
+ 
