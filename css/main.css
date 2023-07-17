@@ -1,0 +1,21 @@
+main #hero {
+    background-size: cover;
+    min-height: 60vh;
+    padding: 5vw;
+}
+
+main #hero h2 {
+    font-family: var(--inter);
+    color: white;
+    text-transform: uppercase;
+}
+
+main #breadcrumb {
+    text-transform: uppercase;
+    padding: 2vw;
+}
+main #breadcrumb a{
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: inline-block;
+}

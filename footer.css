@@ -114,3 +114,7 @@ hr{
         text-align: justify;
     }
 }
+
+main~footer {
+    margin-top: 0;
+}
