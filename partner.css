@@ -340,6 +340,7 @@ hr{
     padding: 15px;
 } */
 
+
 /* RESPONSIVE DESIGN*/
 @media only screen and (max-width: 600px){
     .firstImage{
@@ -444,7 +445,8 @@ hr{
     
   
   @media only screen and (min-width:700px) and (max-width:1100px){
-    
+
+   
     .firstImage{
         width: 100%;
         height: 380px;
@@ -454,6 +456,8 @@ hr{
         background-color: rgba(134, 130, 130, 0.932);
         position: relative;
       }
+
+      
 
       .firstImage p{
         color: #FFF;
