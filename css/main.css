@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700&display=swap');
+
+:root {
+    font-size: calc(62.5% + 0.390625vw);
+    --inter: 'Inter', sans-serif;
+    --lato: 'Lato', sans-serif;
+    font-family: var(--lato);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: var(--lato);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-family: var(--lato);
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.col-2 {
+    /* grid-template-columns: minmax(250px, 1fr) minmax(250px, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+
+main #hero {
+    background-size: cover;
+    min-height: 60vh;
+    padding: 5vw;
+}
+
+main #hero h2 {
+    font-family: var(--inter);
+    color: white;
+    text-transform: uppercase;
+}
+
+main #breadcrumb {
+    text-transform: uppercase;
+    padding: 2vw;
+}
+
+main #breadcrumb a {
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: inline-block;
+}
