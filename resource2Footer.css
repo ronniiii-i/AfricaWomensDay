@@ -1,0 +1,79 @@
+footer{
+    margin-top: 154px;
+    color: #FFFF;
+    /* border: 2px solid yellow; */
+}
+
+.firstFootContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 328px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #3175A1;
+}
+
+.getInvolvedCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* .secondFootContainer{
+    background-color: #11567F;
+ 
+}
+
+.secondFootContainerInnerCont{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 49px;
+    
+}
+
+
+.subCont1 p{
+    margin-top: 30px;
+}
+
+.subCont1Inner{
+    display: flex;
+    gap: 10px;
+}
+
+.subCont1Inner h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subCont2InnerList{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.socials{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.socialLogo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+hr{
+    border: 1px dotted #067cc0;
+    margin-top: 50px;
+}
+
+.copywright{
+    text-align: center;
+    padding: 15px;
+} */
