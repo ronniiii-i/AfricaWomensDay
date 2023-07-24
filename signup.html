@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up | Africa Women's Day</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="signup.css">
-</head>
-<body>
-    
-        <header>
-          <nav>
-            <div class="leftCont">
-              <img src="./images/AfricaLogo.svg" alt="Logo" />
-              <h2>AFRICA'S WOMEN'S DAY</h2>
-            </div>
-  
-            <ul id="myLinks">
-              <li><a href="">MISSION</a></li>
-              <div class="icc">
-                <li>
-                  <a href="">RESOURCES</a>
-                  <div class="dropCont">
-                    <ul>
-                      <div class="dropdown-arrow"></div>
-                      <li><a href="">AWD Events</a></li>
-                      <li><a href="">AWD Gallery</a></li>
-                      <li>
-                        <a href=""
-                          >How to eliminate discrimination in the workplace</a
-                        >
-                      </li>
-                      <li>
-                        <a href=""
-                          >Gender Discrimination at the workplace: How common is
-                          it?</a
-                        >
-                      </li>
-                      <li><a href="">Improve equality for women in tech</a></li>
-                      <li><a href="">Applaud equality for women in sport</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <div class="dropIcon">
-                  <img src="./images/downArrow.svg" alt="downArrow" />
-                </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="leftCont">
+          <a class="home" href="/">
+            <img src="./images/AfricaLogo.svg" alt="Logo" />
+          </a>
+          <a class="home" href="/">
+            <h2>AFRICA'S WOMEN'S DAY</h2>
+          </a>
+        </div>
+
+        <ul id="myLinks">
+          <li><a href="./mission.html">MISSION</a></li>
+          <div class="icc">
+            <li>
+              <a href="">RESOURCES</a>
+              <div class="dropCont">
+                <ul>
+                  <div class="dropdown-arrow"></div>
+                  <li><a href="./event.html">AWD Events</a></li>
+                  <li><a href="./gallery.html">AWD Gallery</a></li>
+                  <li>
+                    <a href="./resources1.html"
+                      >How to eliminate discrimination in the workplace</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./resource2.html"
+                      >Gender Discrimination at the workplace: How common is
+                      it?</a
+                    >
+                  </li>
+                </ul>
               </div>
-              
-              <li><a href="">DONATE</a></li>
-              <li><a href="">LOGIN</a></li>
-              <li><a href="">PARTNERS</a></li>
-              <div class="searchs"><img src="./img/search_icon.png" alt="search icon" /></div>
-            </ul>
-          </nav>
-          <div class="hams">
-            <img onclick="myFunction()" src="./images/ham.png" alt="">
-          <!-- <svg onclick="myFunction()"
+            </li>
+            <div class="dropIcon">
+              <img src="./images/downArrow.svg" alt="downArrow" />
+            </div>
+          </div>
+
+          <li><a href="./donate.html">DONATE</a></li>
+          <li><a href="./login.html">LOGIN</a></li>
+          <li><a href="./partner.html">PARTNERS</a></li>
+          <!-- <div class="searchs"><img src="./images/search.svg" alt="search icon" /></div> -->
+        </ul>
+      </nav>
+      <div class="hams">
+        <img onclick="myFunction()" src="./images/ham.png" alt="" />
+        <!-- <svg onclick="myFunction()"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 32 32"
             id="hamburger-menu"
@@ -67,99 +71,134 @@
               data-name="hamburger menu"
             ></path>
           </svg> -->
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="section1">
+          <img
+            src="./images/woman.png"
+            alt="An Africa Woman"
+            class="africa_woman"
+          />
+          <div class="section1_logo">
+            <img src="./images/AfricaLogo.svg" alt="logo" />
+            <h2>AFRICA'S WOMEN'S DAY</h2>
+          </div>
         </div>
-        </header>
 
-        <main>
-            <section>
-                <div class="section1">
-                    <img src="./images/woman.png" alt="An Africa Woman" class="africa_woman">
-                    <div class="section1_logo">
-                    <img src="./images/AfricaLogo.svg" alt="logo">
-                    <h2>AFRICA'S WOMEN'S DAY</h2>
-                  </div>
-                </div>
-    
-                <div class="section2">
-                    
-                        <h2>ACCOUNT REGISTRATION</h2>
-                        <form action="">
-                            <p class="para">
-                                <label for="email" class="email">Email</label> <br>
-                                <img src="./images/Line 7.png" alt="" class="line">
-                            </p>
-                            <p class="para">
-                                <label for="password" class="PW">Password</label> <br>
-                                <img src="./images/Line 7.png" alt="" class="line">
-                            </p>                    
-                        </form>
-                        <button>Sign Up</button>
-                        <div class="div5">
-                            <h5 class="h5">OR</h5>
-                            <img src="./images/Line 7.png" alt="" class="line">
-                        </div>
-    
-                        <div class="section2_icon">
-                            <img src="./images/fb (1).png" alt="">
-                            <img src="./images/google.png" alt="">
-                            <img src="./images/linkedin.png" alt="">
-                        </div>
-    
-                        <p class="ptext">Already a member? <a href="">LOGIN</a></p>
-                    </div>
-                
-            </section>
-        </main>
-
-
-
-
-        <footer>
-          <div class="footer_div1">
-              <p>Subscribe for AWD Event Updates</p>
-              <hr>
-              <button>Subscribe</button>
+        <div class="section2">
+          <h2>ACCOUNT REGISTRATION</h2>
+          <form action="">
+            <p class="para">
+              <label for="email" class="email">Email</label> <br />
+              <img src="./images/Line 7.png" alt="" class="line" />
+            </p>
+            <p class="para">
+              <label for="password" class="PW">Password</label> <br />
+              <img src="./images/Line 7.png" alt="" class="line" />
+            </p>
+          </form>
+          <button>Sign Up</button>
+          <div class="div5">
+            <h5 class="h5">OR</h5>
+            <img src="./images/Line 7.png" alt="" class="line" />
           </div>
-          <hr class="hr2">
 
-          <div class="fcontainer">
-          <div class="footer_div2">
-              <div class="text1" >
-                <div class="text1_logo">
-                    <img src="./images/AfricaLogo.svg" alt="">
-                    <h2>AFRICA'S WOMEN'S DAY</h2>
-                </div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ratione quo ab sapiente molestiae eum, mollitia officia omnis! Ratione blanditiis facere, explicabo omnis dolor voluptatum distinctio impedit dolores itaque ex!</p>
-              </div>
-              <div class="text2">
-                  <a href="#" class="a"><img src="./images/greaterthan.png" alt=""><span class="abt">About Us</span></a>
-                  <a href="#"><img src="./images/greaterthan.png" alt=""><span class="abt">Contact Us</span></a>
-                  <a href="#"><img src="./images/greaterthan.png" alt=""><span class="abt">Mission</span></a>
-                  <a href="#"><img src="./images/greaterthan.png" alt=""><span class="abt">Gallery</span></a>
-                  <a href="#"><img src="./images/greaterthan.png" alt=""><span class="abt">Event</span></a>
-              </div>
-              <div class="text3">
-                  <a href="#"><img src="./images/greaterthan.png" alt=""><span class="abt">Our Partner</span></a>
-                  <a href="#"><img src="./images/greaterthan.png" alt=""><span class="abt">Privacy Policy</span></a>
-                  <a href="#"><img src="./images/greaterthan.png" alt=""><span class="abt">Cookies</span></a>
-              </div>
+          <div class="section2_icon">
+            <img src="./images/fb (1).png" alt="" />
+            <img src="./images/google.png" alt="" />
+            <img src="./images/linkedin.png" alt="" />
           </div>
-  
-          <div class="footer_div3">
-              <p class="follow">Follow us on</p>
-              <div class="footer_icon">
-                  <img src="./images/youtube.png" alt="">
-                  <img src="./images/fb.png" alt="">
-                  <img src="./images/instafram.png" alt="">
-              </div>
-              <hr class="arrow">
-              <div class="arrow_div"> 
-                  <!-- <img src="./img/arrow.png" alt="" class="arrow_img"> -->
-              </div>
-              <p class="div3_p">2023 © Africa Women's Day</p>
+
+          <p class="ptext">Already a member? <a href="">LOGIN</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer_div1">
+        <p>Subscribe for AWD Event Updates</p>
+        <hr />
+        <button>Subscribe</button>
+      </div>
+      <hr class="hr2" />
+
+      <div class="fcontainer">
+        <div class="footer_div2">
+          <div class="text1">
+            <div class="text1_logo">
+              <img src="./images/AfricaLogo.svg" alt="" />
+              <h2>AFRICA'S WOMEN'S DAY</h2>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+              ratione quo ab sapiente molestiae eum, mollitia officia omnis!
+              Ratione blanditiis facere, explicabo omnis dolor voluptatum
+              distinctio impedit dolores itaque ex!
+            </p>
           </div>
+          <div class="text2">
+            <a href="#" class="a"
+              ><img src="./images/greaterthan.png" alt="" /><span class="abt"
+                >About Us</span
+              ></a
+            >
+            <a href="#"
+              ><img src="./images/greaterthan.png" alt="" /><span class="abt"
+                >Contact Us</span
+              ></a
+            >
+            <a href="#"
+              ><img src="./images/greaterthan.png" alt="" /><span class="abt"
+                >Mission</span
+              ></a
+            >
+            <a href="#"
+              ><img src="./images/greaterthan.png" alt="" /><span class="abt"
+                >Gallery</span
+              ></a
+            >
+            <a href="#"
+              ><img src="./images/greaterthan.png" alt="" /><span class="abt"
+                >Event</span
+              ></a
+            >
           </div>
-      </footer>
-  
-         
-</body>
+          <div class="text3">
+            <a href="#"
+              ><img src="./images/greaterthan.png" alt="" /><span class="abt"
+                >Our Partner</span
+              ></a
+            >
+            <a href="#"
+              ><img src="./images/greaterthan.png" alt="" /><span class="abt"
+                >Privacy Policy</span
+              ></a
+            >
+            <a href="#"
+              ><img src="./images/greaterthan.png" alt="" /><span class="abt"
+                >Cookies</span
+              ></a
+            >
+          </div>
+        </div>
+
+        <div class="footer_div3">
+          <p class="follow">Follow us on</p>
+          <div class="footer_icon">
+            <img src="./images/youtube.png" alt="" />
+            <img src="./images/fb.png" alt="" />
+            <img src="./images/instafram.png" alt="" />
+          </div>
+          <hr class="arrow" />
+          <div class="arrow_div">
+            <!-- <img src="./img/arrow.png" alt="" class="arrow_img"> -->
+          </div>
+          <p class="div3_p">2023 © Africa Women's Day</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
