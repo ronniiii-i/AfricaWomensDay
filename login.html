@@ -1,64 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="icon" href="./images/AfricaLogo.svg"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&family=Lato:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="icon" href="./images/AfricaLogo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-          <div class="leftCont">
-            <img src="images/africa1 1.png" alt="Logo" class="logo" />
+      <nav>
+        <div class="leftCont">
+          <a class="home" href="/">
+            <img src="./images/AfricaLogo.svg" alt="Logo" />
+          </a>
+          <a class="home" href="/">
             <h2>AFRICA'S WOMEN'S DAY</h2>
+          </a>
+        </div>
+
+        <ul id="myLinks">
+          <li><a href="./mission.html">MISSION</a></li>
+          <div class="icc">
+            <li>
+              <a href="">RESOURCES</a>
+              <div class="dropCont">
+                <ul>
+                  <div class="dropdown-arrow"></div>
+                  <li><a href="./event.html">AWD Events</a></li>
+                  <li><a href="./gallery.html">AWD Gallery</a></li>
+                  <li>
+                    <a href="./resources1.html"
+                      >How to eliminate discrimination in the workplace</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./resource2.html"
+                      >Gender Discrimination at the workplace: How common is
+                      it?</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <div class="dropIcon">
+              <img src="./images/downArrow.svg" alt="downArrow" />
+            </div>
           </div>
 
-          <ul>
-            <div class="icc">
-              <li>
-                <a href="">RESOURCES</a>
-                <div class="dropCont">
-                  <ul>
-                    <div class="dropdown-arrow"></div>
-                    <li><a href="">AWD Events</a></li>
-                    <li><a href="">AWD Gallery</a></li>
-                    <li>
-                      <a href=""
-                        >How to eliminate discrimination in the workplace</a
-                      >
-                    </li>
-                    <li>
-                      <a href=""
-                        >Gender Discrimination at the workplace: How common is
-                        it?</a
-                      >
-                    </li>
-                    <li><a href="">Improve equality for women in tech</a></li>
-                    <li><a href="">Applaud equality for women in sport</a></li>
-                  </ul>
-                </div>
-              </li>
-              <div class="dropIcon">
-                <img src="images/Polygon 1.svg" alt="downArrow" />
-              </div>
-            </div>
-            <li><a href="">MISSION</a></li>
-            <li><a href="">PARTNERS</a></li>
-            <li><a href="">DONATE</a></li>
-            <li><a href="">LOGIN</a></li>
-            <img src="images/search.svg" alt="search icon" style="cursor: pointer;"/>
-          </ul>
-        </nav>
-      </header>
+          <li><a href="./donate.html">DONATE</a></li>
+          <li><a href="./login.html">LOGIN</a></li>
+          <li><a href="./partner.html">PARTNERS</a></li>
+          <!-- <div class="searchs"><img src="./images/search.svg" alt="search icon" /></div> -->
+        </ul>
+      </nav>
       <div class="hams">
-        <img onclick="myFunction()" src="./images/ham.png" alt="">
+        <img onclick="myFunction()" src="./images/ham.png" alt="" />
+        <!-- <svg onclick="myFunction()"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 32 32"
+            id="hamburger-menu"
+          >
+            <path
+              d="M26,3H6A3,3,0,0,0,3,6V26a3,3,0,0,0,3,3H26a3,3,0,0,0,3-3V6A3,3,0,0,0,26,3ZM21,21H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Zm0-4H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Zm0-4H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Z"
+              data-name="hamburger menu"
+            ></path>
+          </svg> -->
+      </div>
+    </header>
+    <div class="hams">
+      <img onclick="myFunction()" src="./images/ham.png" alt="" />
       <!-- <svg onclick="myFunction()"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 32 32"
@@ -72,61 +91,90 @@
     </div>
 
     <div class="main">
-        <div class="login">
-                <div class="ladyMain">
-                  <div class="lady">
-                    <img src="images/Rectangle 1.png" alt="lady" style="height: 600px;">
-                  </div>
-                  <div class="log2">
-                      <a href="#"><img src="images/africa1 1.png" alt="logo" class="logo" ></a>
-                      <p >AFRICA’S WOMEN’S DAY</p>
-                  </div>
-                </div>
-                
-
-                <div class="form">
-                  <form action="" method="post" class="form1">
-                    <h2 class="wel">WELCOME</h2>
-                    <div class="user">
-                        <h5>Username</h5>
-                        <input type="text" name="" id="user" style="height: 28px;" required> 
-                        <img style="width: 19px; height: 22px; position: relative; left: 282px; bottom: 52px;" src="images/Group.png" alt="">
-                    </div>
-                    <div class="pass">
-                        <h5>Password</h5>
-                        <input type="password" name="" id="pass" required >
-                        <img src="images/Group (1).png" alt="" style="width: 21.996px;
-                        height: 22.33px; position: relative; left: 280px; bottom: 50px;">
-                    </div>
-                    <div class="checkForget">
-                      <div class="checkbox">
-                        <input type="checkbox" name="" id="check">
-                        <label for="check" style="padding-left: 5px;">Remember Me</label>
-
-                    </div>
-                    <a href="#" class="forget">Forgot your password?</a>
-
-                    </div>
-                    
-                    <div class="lastLog"> <a href="#">Login</a></div>
-                    <!-- <button type="submit" class="lastLog">Login</button> -->
-                    <h5 class="dont">Don’t have an account? <a href="#" style="cursor: pointer; color: #11567F;">Sign up!</a></h5>
-                </form>
-                </div>      
-    </div>
-
-
-
-      <div class="box1">
-                <div class="box12">
-                    <h2 class="sub">Subscribe for AWD Event Updates </h2>
-                    <div class="box123"></div>  
-                    <button class="button"><a href="subscribe.html">Subscribe</a></button>
-                </div>
+      <div class="login">
+        <div class="ladyMain">
+          <div class="lady">
+            <img
+              src="images/Rectangle 1.png"
+              alt="lady"
+              style="height: 600px"
+            />
+          </div>
+          <div class="log2">
+            <a href="#"
+              ><img src="images/africa1 1.png" alt="logo" class="logo"
+            /></a>
+            <p>AFRICA’S WOMEN’S DAY</p>
+          </div>
         </div>
 
+        <div class="form">
+          <form action="" method="post" class="form1">
+            <h2 class="wel">WELCOME</h2>
+            <div class="user">
+              <h5>Username</h5>
+              <input
+                type="text"
+                name=""
+                id="user"
+                style="height: 28px"
+                required
+              />
+              <img
+                style="
+                  width: 19px;
+                  height: 22px;
+                  position: relative;
+                  left: 282px;
+                  bottom: 52px;
+                "
+                src="images/Group.png"
+                alt=""
+              />
+            </div>
+            <div class="pass">
+              <h5>Password</h5>
+              <input type="password" name="" id="pass" required />
+              <img
+                src="images/Group (1).png"
+                alt=""
+                style="
+                  width: 21.996px;
+                  height: 22.33px;
+                  position: relative;
+                  left: 280px;
+                  bottom: 50px;
+                "
+              />
+            </div>
+            <div class="checkForget">
+              <div class="checkbox">
+                <input type="checkbox" name="" id="check" />
+                <label for="check" style="padding-left: 5px">Remember Me</label>
+              </div>
+              <a href="#" class="forget">Forgot your password?</a>
+            </div>
+
+            <div class="lastLog"><a href="#">Login</a></div>
+            <!-- <button type="submit" class="lastLog">Login</button> -->
+            <h5 class="dont">
+              Don’t have an account?
+              <a href="#" style="cursor: pointer; color: #11567f">Sign up!</a>
+            </h5>
+          </form>
+        </div>
+      </div>
+
+      <div class="box1">
+        <div class="box12">
+          <h2 class="sub">Subscribe for AWD Event Updates</h2>
+          <div class="box123"></div>
+          <button class="button"><a href="subscribe.html">Subscribe</a></button>
+        </div>
+      </div>
     </div>
-    <div class="secondFootContainer">
+    <footer>
+      <div class="secondFootContainer">
         <div class="secondFootContainerInnerCont">
           <div class="subCont1">
             <div class="subCont1Inner">
@@ -325,12 +373,8 @@
         <hr />
         <div class="copywright">2023 &copy; Africa's Women's Day</div>
       </div>
-    
+    </footer>
 
-
-
-
-
-      <script src="navBar.js"></script>
-</body>
+    <script src="navBar.js"></script>
+  </body>
 </html>
