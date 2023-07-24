@@ -13,7 +13,7 @@ section{
     justify-content: space-between;
     align-items: center;
     background-color: #81A5B91A;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 80px;
 }
 
@@ -294,7 +294,7 @@ width: 100%;
     }
     section{
         position: static;
-         margin-top: 80px; 
+         margin-top: 0; 
          margin-bottom: 0;
     }
 
