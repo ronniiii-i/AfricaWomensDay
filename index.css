@@ -12,7 +12,7 @@
 
 .imageContainer > img{
     width: 100%;
-    margin-top: 80px; 
+    /* margin-top: 80px;  */
     
 }
 
@@ -137,13 +137,13 @@
   /* border: 1px solid blue; */
  } 
  
- 
+/*  
  .bgimg2{
   display: flex;
   justify-content: flex-end;
-  /* border: 1px solid red; */
+  border: 1px solid red;
  
- }
+ } */
 
  .non{
     padding-top: 120px;
