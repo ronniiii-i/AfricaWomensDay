@@ -16,7 +16,7 @@
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 h2 {
@@ -76,7 +76,7 @@ main #hero {
     padding: 5vw;
 }
 
-main #hero h2 {
+main #hero * {
     font-family: var(--inter);
     color: white;
     text-transform: uppercase;
@@ -91,4 +91,13 @@ main #breadcrumb a {
     font-size: 1.2rem;
     font-weight: 700;
     display: inline-block;
+}
+
+button,
+a.button {
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 4px;
+    background: #11567F;
+    width: fit-content;
 }
