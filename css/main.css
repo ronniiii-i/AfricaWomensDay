@@ -87,11 +87,6 @@ main #breadcrumb {
     padding: 2vw;
 }
 
-main #breadcrumb a {
-    font-size: 1.2rem;
-    font-weight: 700;
-    display: inline-block;
-}
 
 button,
 a.button {

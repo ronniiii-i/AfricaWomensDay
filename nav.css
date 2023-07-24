@@ -88,7 +88,7 @@ header  nav ul li:hover{
 header  nav ul li a{
     text-decoration: none;
     font-size: 14px;
-    color: #000;
+    /* color: #000; */
 }
 
 @keyframes FadeIn {
@@ -103,6 +103,15 @@ header  nav ul li a{
 .leftCont{
     display: flex;
     gap: 10px;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+
 }
 
 .leftCont h2{
@@ -157,9 +166,9 @@ header  nav ul li a{
     justify-content: center;
     align-items: center;
 }
-.leftCont h2{
+/* .leftCont h2{
     display: none;
-}
+} */
 
 .searchs{
     display: none;
