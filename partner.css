@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header{
+    width: 100%;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+} 
+header  nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header  nav ul li{
+    padding: 10px;
+}
+
+.dropCont{
+    display: none;
+    font-size: 25px;
+}
+
+header nav ul li:hover .dropCont{
+    display: block;
+    position: absolute;
+    margin-top: 11px;
+    margin-left: -15px;
+    background-color: #3175A1;
+    
+}
+
+header nav ul li:hover a{
+    color: #FFFFFF;
+}
+
+header nav ul li:hover .dropCont ul{
+    display: block;
+    margin: 10px;
+}
+
+header nav ul li:hover .dropCont ul li{
+    width: 170px;
+    padding: 10px;
+    border-bottom: 2px dotted red;
+    
+}
+header nav ul li:hover .dropCont ul li:last-child{
+    border-bottom: none;
+}
+
+header nav ul li :hover{
+    background-color: black;
+    animation: FadeIn 1s ease-in-out 0s 1;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@keyframes FadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+.leftCont{
+    display: flex;
+    gap: 10px;
+}
+
+.leftCont h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.icc{
+    display: flex;
+}
+
+.dropIcon{
+    padding-top: 13px;
+} */
+
+/* content image */
+.firstImage{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(images/firstImage.svg), lightgray 50% / cover no-repeat;
+    height: 620px;
+    width: 1348px;
+    position: relative;
+   
+}
+.firstImage p{
+    width: 905px;
+    height: 132.267px;
+    color: #FFF;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 265px;
+    left: 145px;
+}
+
+.firstImage button{
+    background-color: #3175A1;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    width: 140px;
+    height: 50px; 
+    padding: 26px 90px;
+    justify-content: center;
+    align-items: center; 
+     /* gap: 10px; */
+    position: absolute;
+    top: 330px;
+    left: 145px;
+    border: none;
+}
+
+.hm-pt{
+    margin: 35px 900px 0px 0px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   
+}
+
+.content-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.support{
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    /* font-size: 35px; */
+    font-size: 25px;
+    font-style: normal;
+    /* font-weight: 700; */
+    font-weight: 500;
+    text-align: justify;
+    line-height: normal;
+    margin-top: 100px;
+}
+
+.para{
+    margin: 100px 0px 154px 0px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.05px;
+}
+
+.partners-info{
+     width: 80%;
+     margin: 0 auto;     
+
+}
+
+.girlsintech{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    gap: 55px;
+}
+
+.girlsintech p{
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400px;
+    text-align: justify;
+    /* font-weight: 700; */
+    line-height: 127%;
+}
+
+.last-container{
+    width: 1075px;
+    height: 260px;
+    /* height: 287px; */
+    padding-top: 50px;
+    margin-bottom: 154px;
+    background: rgba(129, 165, 185, 0.10);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);   
+}
+.last-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.last-container h3{
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+}
+
+.last-container img{
+     margin-top: 20px;
+}
+
+.last-button{
+    display: inline-flex;
+    border-radius: 4px;
+    background: #11567F;
+    /* height: 50px; */
+    height: 50px;
+    padding: 26px 70px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 57px;
+    /* margin-top: 67px; */
+}
+
+.last-button button{
+    background: #11567F;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+footer{
+    margin-top: 154px;
+    color: #FFFF;
+}
+
+.firstFootContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 328px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #3175A1;
+}
+
+.getInvolvedCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* .secondFootContainer{
+    background-color: #11567F;
+}
+
+.secondFootContainerInnerCont{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 49px;
+}
+
+
+.subCont1 p{
+    margin-top: 30px;
+}
+
+.subCont1Inner{
+    display: flex;
+    gap: 10px;
+}
+
+.subCont1Inner h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subCont2InnerList{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.socials{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.socialLogo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+hr{
+    border: 1px dotted #067cc0;
+    margin-top: 50px;
+}
+
+.copywright{
+    text-align: center;
+    padding: 15px;
+} */
+
+
+/* RESPONSIVE DESIGN*/
+@media only screen and (max-width: 600px){
+    .firstImage{
+        width: 100%;
+        height: 160px;
+        background-image: url(images/firstImage.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(134, 130, 130, 0.932);
+        position: relative;
+  
+      }
+      .firstImage p{
+        color: #FFF;
+        left: 20px;
+        font-weight: 300px;
+        font-size: 20px;
+        width: 80%;
+        position: absolute;
+        top: 70px;
+       }
+       .firstImage button{
+          position: absolute;
+          font-size: 20px;
+          top: 125px;
+          left: 20px;
+          width: 80px;
+          height: 25px; 
+          padding: 15px 50px;
+          justify-content: center;
+          align-items: center; 
+       }
+       .hm-pt{
+          width: 60%;
+       }
+       .support{
+          color: #000;
+          font-size: 20px; 
+          font-weight: 300;
+          margin-top: 60px;
+          text-align:left;
+       }
+  
+       .para{
+          margin-top: 80px;
+          font-size: 25px;
+          font-weight: 300;
+          text-align:left;
+          letter-spacing: 1.05px;
+      }
+      .girlsintech{
+          flex-wrap: wrap;
+          margin-bottom: 30px;
+      }
+  
+      .girlsintech img{
+          width: 100%;
+  
+      }
+      .girlsintech p{
+          width: 100%;
+          font-size: 18px;
+          text-align: left;
+  
+      }
+      .last-container{
+          width: 100%;
+          height: 220px;
+          padding-top: 20px;
+      }
+      .last-container h3{
+          text-align: center;
+          font-size: 18px;
+          /* font-weight: 500px; */
+          font-weight: bolder;
+      }
+  
+      .last-button{
+          margin-top: 30px;
+      }
+
+      .firstFootContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 328px;
+        font-size: 15px;
+        font-weight: 400;
+        background-color: #3175A1;
+       
+    }
+    
+    .getInvolvedCont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+}
+    
+    
+  
+  @media only screen and (min-width:700px) and (max-width:1100px){
+
+   
+    .firstImage{
+        width: 100%;
+        height: 380px;
+        background-image: url(images/firstImage.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(134, 130, 130, 0.932);
+        position: relative;
+      }
+
+      
+
+      .firstImage p{
+        color: #FFF;
+        font-weight: 500px;
+        font-size: 35px;
+        width: 95%;
+        position: absolute;
+        top: 150px;
+        left: 40px;
+       }
+
+       .firstImage button{
+        position: absolute;
+        font-size: 30px;
+        top: 200px;
+        left: 40px;
+        width: 140px;
+        height: 50px; 
+        padding: 26px 90px;
+        justify-content: center;
+        align-items: center; 
+       }
+
+       .hm-pt{
+        width: 50%;
+        font-size: 25px;
+     }
+     .support{
+        text-align:left;
+     }
+
+     .girlsintech{
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .girlsintech img{
+        width: 100%;
+
+    }
+    .girlsintech p{
+        width: 100%;
+    }
+
+    .last-container{
+        width: 100%;
+        height: 250px;
+        padding-top: 40px;
+    }
+    .last-container h3{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .last-button{
+        margin-top: 50px;
+    } 
+   
+  }
