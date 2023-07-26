@@ -154,25 +154,26 @@ main #cta button {
     main #content .row .text {
         border: none;
     }
-    main #content .connected{
+
+    main #content .connected {
         flex-direction: column;
         height: fit-content;
     }
-    
+
     main #content .connected .img,
-    main #content .connected .text{
+    main #content .connected .text {
         width: 100%;
     }
-    
-    main #content .connected .img{
+
+    main #content .connected .img {
         max-height: 250px;
     }
-    
-    main #content .connected .text *{
+
+    main #content .connected .text * {
         margin-block: 1rem;
     }
-    
-    main #content .connected .img img{
+
+    main #content .connected .img img {
         width: 100%;
     }
 }

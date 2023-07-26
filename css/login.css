@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.hams > img{
+    display: none;
+}
+
+
+
+.login{
+    width: 70%;
+    height:  600px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background: rgba(129, 165, 185, 0.10);
+    margin: 0 auto;
+    margin-top: 153px;
+    
+}
+
+
+
+
+.log2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    padding-right: 130px;
+    top: -15%;
+
+}
+.wel{
+    text-align: center;
+    color: #11567F;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+
+}
+.user {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    border: none;
+    color: #11567F;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 20px;
+    letter-spacing: 1.6px;
+    gap: 25px;
+   
+}
+.pass{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    border: none;
+    color: #11567F;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    margin-left: 20px;
+    gap: 25px;
+    
+}
+
+#user, #pass{
+    border: none;
+    border-style: none;
+    border-bottom: 4px solid hsl(0, 2%, 38%);
+    background: transparent;
+    outline: none;
+    width: 300px;
+   
+    
+}
+.checkForget{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox{
+    color: #11567F;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    margin-left: 20px;
+}
+#check{
+    transform: scale(1.2);
+   
+}
+.forget{
+    margin-right: 20px;
+    color: #11567F;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    text-decoration-line: underline;
+}
+.lastLog{
+    display: flex;
+    height: 50px;
+    width: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    border-radius: 4px;
+    background: #3175A1;
+    
+}
+
+.lastLog a{
+    text-decoration: none; 
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    transition: ease-in-out;
+  
+}
+
+.lastLog a:hover{
+    font-weight: bolder;
+}
+.dont{
+    color: #11567F;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+  
+.box1{
+    width: 100%;
+    height: 322px;
+    background: #3175A1;
+    margin-top: 100px;
+    
+}
+
+.box12{
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 66px;
+    margin: 0 auto;
+  
+}
+.sub{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+   
+}
+.box123{
+    width: 800px;
+    height: 5px;
+    background: #FFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+.button{
+    display: flex;
+    height: 50px;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px ;
+    background-color: #11567F;
+    box-shadow: 3px 3px 7px -3px #FFF;
+    border: none;
+    cursor: pointer
+}
+
+.button a{
+    text-decoration: none; 
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    transition: ease-in-out;
+}
+
+.button a:hover{
+    font-weight: 900;
+    
+}
+footer {
+    margin-top: 0!important;
+}
+
+
+@media only screen and (max-width: 600px){
+    .login{
+        width: 90%;
+    }
+    .wel{
+        font-size: 25px;
+    }
+    .ladyMain{
+        display: none;
+    }
+    .forget{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .checkForget{
+        flex-direction: column;
+    }
+    .sub{
+        font-size: 20px;
+        
+    }
+    
+
+}
+
+@media only screen and (max-width:600px){
+    footer{
+        margin-top: 100px;
+    }
+    .firstFootContainer{
+        padding-top: 20px;
+    }
+    .firstFootContainer p{
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .firstFootContainer h2{
+        font-size: 19px;
+    }
+
+    .getInvolvedCont svg{
+        height: 25px;
+        width: 25px;
+    }
+
+    /* Now styling the second footer container */
+    .secondFootContainerInnerCont{
+        padding-top: 20px;
+        flex-direction: column;
+        /* padding-top: 49px; */
+    }
+    .subCont1Inner h2{
+        font-size: 18px;
+    }
+    .subCont1Inner p{
+        text-align: justify;
+    }
+}
