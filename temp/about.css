@@ -125,7 +125,7 @@ header  nav ul li a{
     height: 100vh;
     position: relative;
     top: 60px;
-    background-image: url(images/AfricanWomenSmiling.png);
+    background-image: url(../images/AfricanWomenSmiling.png);
     background-position: center;
     background-size: cover;
 

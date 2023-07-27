@@ -198,6 +198,7 @@ header .burger.active .line3 {
         max-width: 250px;
         min-width: 250px;
     }
+
     header nav {
         /* min-width: 250px; */
         position: absolute;

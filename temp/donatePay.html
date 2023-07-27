@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Donate Payment Page</title>
+    <title>Africa's Women’s Day - Donate Payment Page</title>
     <link rel="stylesheet" href="nav.css" />
-    <link rel="stylesheet" href="stepTwo.css" />
-    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="./css/donatePay.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <link rel="icon" href="./images/AfricaLogo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -76,40 +76,64 @@
           </svg> -->
       </div>
     </header>
+    <div class="hams">
+      <img onclick="myFunction()" src="./images/ham.png" alt="" />
+      <!-- <svg onclick="myFunction()"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 32 32"
+        id="hamburger-menu"
+      >
+        <path
+          d="M26,3H6A3,3,0,0,0,3,6V26a3,3,0,0,0,3,3H26a3,3,0,0,0,3-3V6A3,3,0,0,0,26,3ZM21,21H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Zm0-4H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Zm0-4H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Z"
+          data-name="hamburger menu"
+        ></path>
+      </svg> -->
+    </div>
 
     <main>
       <div class="firstcont">
         <div class="secondcont" style="background: #fff">
-          <a href="donatePay.html"><img src="images/Polygon 2.svg" alt="" /></a>
-          <h4>DETAILS</h4>
+          <h4>Secure Donation</h4>
         </div>
-
-        <form action="#" method="post" class="form">
-          <label for="fname"></label>
-          <input type="text" placeholder="First Name" id="fname" required />
-
-          <label for="lname"></label>
-          <input type="text" placeholder="Last Name" id="lname" required />
-
-          <label for="email"></label>
-          <input type="email" placeholder="Email" id="email" required />
-
-          <label for="address"></label>
-          <input type="text" placeholder="Address" id="address" required />
-
-          <label for="city"></label>
-          <input type="text" placeholder="City" id="city" required />
-
-          <label for="province"></label>
-          <input type="text" placeholder="Province" id="province" required />
-
-          <label for="country"></label>
-          <input type="text" placeholder="Country" id="country" required />
-
-          <label for="zip"></label>
-          <input type="" placeholder="Zip Code" id="zip" required />
-
-          <div class="next">Next</div>
+        <form action="#" method="post">
+          <div class="contpair">
+            <div>
+              <a href="http://" class="once">give once</a>
+            </div>
+            <div>
+              <a href="http://" class="month">monthly</a>
+            </div>
+          </div>
+          <div class="cash">
+            <a href="http://" class="amt">$ 200</a>
+            <a href="http://" class="amt">$ 30</a>
+            <a href="http://" class="amt">$ 300</a>
+            <a href="http://" class="amt">$ 150</a>
+          </div>
+          <div class="money">
+            <label for="amount"></label>
+            <input
+              type=""
+              class="amount"
+              name="amount"
+              id="amount"
+              required
+              placeholder="USD $"
+            />
+          </div>
+          <div class="money2">
+            <!-- <label for="amount">USD $</label> -->
+            <input
+              type=""
+              class="amount2"
+              name="amount2"
+              id="amount"
+              placeholder="Other Amount"
+            />
+          </div>
+          <div>
+            <a href="http://" class="next">next</a>
+          </div>
         </form>
       </div>
     </main>

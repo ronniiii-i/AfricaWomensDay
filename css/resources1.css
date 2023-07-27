@@ -7,7 +7,7 @@
 }
 
 .how {
-    background: url('./images/girlImage.png');
+    background: url('../images/girlImage.png');
     min-height: 70vh;
     padding: 5vw;
 }
