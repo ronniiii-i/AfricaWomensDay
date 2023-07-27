@@ -4,120 +4,177 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/gallery.css" />
-    <link rel="icon" href="./images/AfricaLogo.svg" />
-    <title>Africa's Women's Day - Gallery</title>
+    <title>African Women's Day - About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@400;500&family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Manrope&family=Roboto&family=Wix+Madefor+Display&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div>
-      <header class="flex justify-between align-center wrap">
-        <div class="logo flex align-center justify-center">
-          <a class="home" href="/">
-            <img src="./images/AfricaLogo.svg" alt="Logo" />
-          </a>
-          <a class="home" href="/">
-            <h2>AFRICA'S WOMEN'S DAY</h2>
-          </a>
-        </div>
+    <div class="main">
+      <header>
         <nav>
-          <ul>
-            <li>
-              <a href="/">
-                HOME
-                <div class="line"></div>
-              </a>
-            </li>
-            <li>
-              <a href="./about.html">
-                ABOUT
-                <div class="line"></div>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                AWD 2023
-                <div class="line"></div>
-              </a>
-            </li>
-            <li>
-              <span class="a flex align-center justify-center">
-                GET INVOLVED
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <path
-                    d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
-                  />
-                </svg>
-                <div class="line"></div>
-              </span>
-              <!-- Dropdown -->
-              <ol class="dropdown">
-                <li><a href="./event.html">AWD EVENTS</a></li>
-                <li><a href="./posts.html">AWD POSTS</a></li>
-                <li><a href="./gallery.html">AWD GALLERY</a></li>
-                <li><a href="./partner.html">PARTNERS</a></li>
-              </ol>
-            </li>
-            <li>
-              <a href="./donate.html">
-                DONATE
-                <div class="line"></div>
-              </a>
-            </li>
+          <div class="leftCont">
+            <a class="home" href="/">
+              <img src="./images/AfricaLogo.svg" alt="Logo" />
+            </a>
+            <a class="home" href="/">
+              <h2>AFRICA'S WOMEN'S DAY</h2>
+            </a>
+          </div>
+
+          <ul id="myLinks">
+            <li><a href="./mission.html">MISSION</a></li>
+            <div class="icc">
+              <li>
+                <a href="">RESOURCES</a>
+                <div class="dropCont">
+                  <ul>
+                    <div class="dropdown-arrow"></div>
+                    <li><a href="./event.html">AWD Events</a></li>
+                    <li><a href="./gallery.html">AWD Gallery</a></li>
+                    <li>
+                      <a href="./resources1.html"
+                        >How to eliminate discrimination in the workplace</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./resource2.html"
+                        >Gender Discrimination at the workplace: How common is
+                        it?</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <div class="dropIcon">
+                <img src="./images/downArrow.svg" alt="downArrow" />
+              </div>
+            </div>
+
+            <li><a href="./donate.html">DONATE</a></li>
+            <li><a href="./login.html">LOGIN</a></li>
+            <li><a href="./partner.html">PARTNERS</a></li>
+            <!-- <div class="searchs"><img src="./images/search.svg" alt="search icon" /></div> -->
           </ul>
         </nav>
-        <div class="burger flex column justify-between">
-          <div class="line line1"></div>
-          <div class="line line2"></div>
-          <div class="line line3"></div>
+        <div class="hams">
+          <img onclick="myFunction()" src="./images/ham.png" alt="" />
+          <!-- <svg onclick="myFunction()"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 32 32"
+              id="hamburger-menu"
+            >
+              <path
+                d="M26,3H6A3,3,0,0,0,3,6V26a3,3,0,0,0,3,3H26a3,3,0,0,0,3-3V6A3,3,0,0,0,26,3ZM21,21H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Zm0-4H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Zm0-4H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Z"
+                data-name="hamburger menu"
+              ></path>
+            </svg> -->
         </div>
       </header>
-      <div class="hero-image">
-        <img class="hero-image" src="./images/galleryhero.png" alt="" />
-      </div>
-      <div class="sub-links flex">
-        <a href="/">Home</a>
-        <a href="">/</a>
-        <a href="">About</a>
-        <a href="">/</a>
-        <a href="./gallery.html">Gallery</a>
-      </div>
-      <div class="container">
-        <div class="heading">Africa's Women's Day Gallery</div>
-        <div class="gallery"></div>
-      </div>
 
-      <!-- Modal -->
-      <div id="myModal" class="modal">
-        <div class="modal-content">
-          <!-- Modal close button -->
-          <span class="close_btn">&times;</span>
+      <div class="africanWomenSmiling"></div>
 
-          <div class="modal_image_container">
-            <img src="/dummy_image.jpg" id="slider_image" />
+      <div class="writeUp">
+        <div>
+          <div class="groupHeading">
+            <h3 class="ourStory">Our Story</h3>
+            <br />
+            <h3 class="since1962">Since 1962</h3>
+            <br />
+            <div class="groupImg"><img src="images/GroupImg.svg" /></div>
+            <div class="africanWD">Africa Women’s Day Celebration</div>
           </div>
 
-          <div class="modal_text_container">
-            <h3 id="modal_title"></h3>
-            <p id="modal_body"></p>
-          </div>
-
-          <div class="nav_arrows_container">
-            <button id="prev">
-              <!-- Put left arrow icon here -->
-            </button>
-            <button id="next">
-              <!-- Put right arrow icon here -->
-            </button>
-          </div>
+          <p class="text1">
+            Africa’s Women’s Day is observed annually across the continent on 31
+            July and is a day earmarked to recognise and affirm the role of
+            women’s organising in achieving the political freedom of Africa and
+            advancing the social and economic status of women on the
+            continent.<br /><br />
+            Africa’s Women’s Day was proclaimed as a day to be commemorated
+            during the first conference of the Pan-African Women’s Organization
+            (PAWO) which was held in July 1962 in Dar es Salaam Tanganyika (now
+            known as Tanzania).<br /><br />
+            Africa’s Women’s Day offers a national, continental and global
+            opportunity to recall and affirm the significant role of African
+            women in the evolution of a strong Pan-African identity, with shared
+            values, objectives and vision for the future, as well as women being
+            key contributors towards achieving Africa’s inclusive growth and
+            sustainable development agenda anchored in the AU vision of an
+            integrated prosperous and peaceful Africa.
+          </p>
         </div>
       </div>
+      <div class="writeUp2">
+        <div>
+          <div class="groupHeading2">
+            <h3 class="ourApproach">Our Approach</h3>
+            <br />
+            <h3 class="whatDoes">What does the AWD website aim to achieve?</h3>
+            <br />
+          </div>
 
-      <!-- This is the footer -->
+          <p class="text3">
+            The purpose of the Africa Women's Day website is to celebrate ,
+            appreciate Africa women and to support the supporters, and to
+            encourage worldwide engagement and collective action in advancing
+            women's equality. In doing so, the AWD website provides a useful and
+            collaborative platform that aims to help forge positive change for
+            women worldwide.<br />
+            Everyone everywhere can help forge women's equality. Collective
+            action and collaborative support for forging women's equality
+            matters, and all groups should be welcome to advance women's
+            equality by whatever appropriate means they choose.
+          </p>
+          <p class="text2">
+            <br />
+            Whether hosting an event, running a campaign, launching an
+            initiative, reporting on achievement, donating to a female-focused
+            charity, or more - there are many ways groups and individuals can
+            mark Africa Women's Day.<br /><br />
+
+            Three central beliefs underpin and guide the purpose and provisions
+            of the Africa Women's Day website:
+            <ul class="list1">
+              <li>identifying, celebrating, and increasing visibility of women's achievements can help forge equality</li>
+              <li>strategic collaborations based on a foundation of shared purpose, trust, and appreciation can impact positive change for women</li>
+              <li>worldwide awareness raising via meaningful narratives, resources, and activity can help combat gender bias and discrimination to accelerate gender parity</li>
+            </ul>
+            <br/>
+            <br/>
+            <br/>
+            <p class="text2">To support worldwide activity, the Africa Women's Day website provides:</p>
+            <ul class="list2">
+                <li>free guidance and resources</li>
+                <li> a platform for collaborative purpose-driven missions</li>
+                <li>a hub showcasing the work of women creatives</li>
+                <li>a women-owned business IWD supplier directory</li>
+                <li>a fundraising channel for female-focused charities (100% direct to charity)</li>
+            </ul>
+          </p>
+          <br /><br />
+          <h2>Do we still need an Africa Women's Day?</h2>
+          <p class="text2">
+            Yes! Africa Women need to be celebrated and remembered.
+          </p>
+        </div>
+      </div>
+      <div class="exploreGroup">
+        <h2 class="Explore">Explore Our Roots</h2>
+        <div class="groupImg2"><img src="images/GroupImg2.svg" /></div>
+      </div>
+
+      <div class="pageBottom">
+        <img src="./images/AfricanSeniors.png" alt="African Seniors" />
+        <h2 class="gallery">Explore Our Gallery</h2>
+      </div>
+
       <footer>
         <div class="firstFootContainer">
           <div class="firstFootContainerWriteUp">
@@ -164,9 +221,9 @@
                 <h2>AFRICA'S WOMEN'S DAY</h2>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-                In nec augue laoreet, volutpat libero vulputate, faucibus <br />
-                enim. Duis ultrices est magna, sed sodales eros ornare in.
+                An Integrated, Prosperous and Peaceful Africa, <br />
+                driven by its own citizens and representing <br />
+                a dynamic force in the global arena.
               </p>
             </div>
             <div class="subCont2">
@@ -357,7 +414,5 @@
         </div>
       </footer>
     </div>
-    <script src="gallery.js"></script>
-    <script src="./navBar.js"></script>
   </body>
 </html>
