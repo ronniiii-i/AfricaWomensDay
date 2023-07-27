@@ -182,7 +182,7 @@ header .burger.active .line3 {
     }
 
     header .logo {
-        min-width: 250px;
+        min-width: 280px;
     }
 }
 
@@ -193,6 +193,11 @@ header .burger.active .line3 {
         position: relative;
     }
 
+    header .logo {
+        width: 100%;
+        max-width: 250px;
+        min-width: 250px;
+    }
     header nav {
         /* min-width: 250px; */
         position: absolute;
