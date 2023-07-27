@@ -5,6 +5,10 @@ main #hero {
     padding: 5vw;
 }
 
+main #hero.post {
+    background: url('../images/posthero.webp');
+}
+
 main #hero h2 {
     font-family: var(--inter);
     color: white;
