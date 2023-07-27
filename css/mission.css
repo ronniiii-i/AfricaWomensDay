@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
 main #hero {
     background: url('../images/missionhero.png') top no-repeat;
 }
@@ -8,7 +10,7 @@ main #content {
 
 main #content .row {
     width: 80%;
-    margin: 3rem auto;
+    margin: 0 auto 3rem;
     font-weight: 700;
     color: #000;
     font-size: 1.2rem;
@@ -38,70 +40,79 @@ main #content .row p {
     padding: calc(1rem + 1vw);
 }
 
-main #content a.button {
-    background: #11567F;
-    box-shadow: 0px 1px 1px 0px #81A5B9;
-    margin: 3rem auto;
-    display: block;
-    width: 100%;
-    min-width: 100px;
-    max-width: 180px;
-    padding: .5rem 1rem;
-    color: #FFF;
-    font-family: var(--inter);
-    font-size: 1.7rem;
-    font-weight: 500;
-    text-align: center;
-    transition: all .5s;
-}
-
-main #content a.button:hover {
-    text-decoration: none;
-    background-color: #104f74;
-    box-shadow: 2px 3px 3px 0px #81A5B9;
-    /* border-radius: 0.4rem; */
-}
-
-main #content .connected {
-    margin: 3rem auto;
-    background: rgba(129, 165, 185, 0.50);
-    height: 18rem;
-    overflow: hidden;
+main #content article {
     width: 80%;
+    margin: 3rem auto;
+    padding: 1vw;
 }
 
-main #content .connected .img {
-    width: 45%;
-    overflow: hidden;
-    /* height: 100%; */
+main #content article * {
+    margin-block: 1rem;
 }
 
-main #content .connected .img img {
-    width: 150%;
-    /* height: 100%; */
+main #content article h3 {
+    text-align: center;
+    color: #11567F;
+    font-family: var(--inter);
 }
 
-main #content .connected .text {
-    padding: calc(1rem + 2vw);
-    height: 100%;
-    flex-direction: column;
-    width: 55%;
+main #content article p {
+    font-size: 1.1rem;
 }
 
-main #content .connected .text h3 {
-    color: #FFF;
-    font-size: 2.2rem;
+main #content .team {
+    width: 80%;
+    margin: 3rem auto;
+    padding: 1vw;
 }
 
-main #content .connected .text button {
-    color: #FFF;
-    background: #3175A1;
-    border: none;
-    padding: .5rem 1rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
+main #content .team h3 {
+    margin-block: 1rem;
+    text-align: center;
+    color: #11567F;
+    font-family: var(--inter);
 }
+
+main #content .team .flex {
+    gap: 3%;
+    row-gap: 3rem;
+}
+
+main #content .team .flex .person {
+    padding: 1vw;
+    width: 40%;
+    min-width: 250px;
+}
+
+main #content .team .flex .person .img {
+    width: 100%;
+}
+
+main #content .team .flex .person .img img {
+    width: 100%;
+}
+
+main #content .team .flex .person .text {
+    padding: 1vw;
+    text-align: center;
+}
+
+main #content .team .flex .person .text * {
+    margin-block: .5rem;
+}
+
+main #content .team .flex .person .text p {
+    font-size: 1.1rem;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+main #content .team .flex .person .text small {
+    font-family: 'Gentium Plus', serif;
+    font-size: 1rem;
+}
+
 
 main #cta {
     background-color: #3175A1;
