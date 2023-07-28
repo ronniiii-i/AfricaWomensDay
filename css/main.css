@@ -6,6 +6,8 @@
     font-size: calc(62.5% + 0.390625vw);
     --inter: 'Inter', sans-serif;
     --lato: 'Lato', sans-serif;
+    --lora: 'Lora', serif;
+    --gent: 'Gentium Plus', serif;
     font-family: var(--lato);
 }
 

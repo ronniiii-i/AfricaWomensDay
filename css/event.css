@@ -1,8 +1,15 @@
 main #hero {
-    background: url('../images/eventhero.png') bottom no-repeat;
+    background: linear-gradient(#00000098, #00000098), url('../images/eventhero.png') bottom no-repeat;
     background-size: cover;
     min-height: 60vh;
     padding: 5vw;
+}
+
+main #hero.ev{
+    background-attachment: fixed;
+}
+@media screen and (max-height: 650px) and () {
+    
 }
 
 main #hero.post {
@@ -68,12 +75,17 @@ main #featured .card .text * {
 
 main #featured .card .text h3 {
     font-size: 1.7rem;
-    padding-block: 1rem;
+    padding-top: 1rem;
 }
 
+main #featured .card .text p{
+    font-family: var(--gent);
+    margin-block: 1rem;
+}
 main #featured .card .text a {
     font-size: 1.4rem;
-    margin-block: 2rem;
+    margin-block: 1rem;
+    font-family: var(--lora);
 }
 
 main #cta {

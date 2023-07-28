@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 main #hero {
-    background: url('../images/missionhero.png') top no-repeat;
+    background: linear-gradient(#00000098, #00000098), url('../images/abouthero.webp') no-repeat;
+    background-position: 50% 60%;
 }
 
 main #content {
@@ -38,6 +39,7 @@ main #content .row:nth-child(even) .text {
 
 main #content .row p {
     padding: calc(1rem + 1vw);
+    font-family: var(--gent);
 }
 
 main #content article {
@@ -58,6 +60,7 @@ main #content article h3 {
 
 main #content article p {
     font-size: 1.1rem;
+    font-family: var(--gent);
 }
 
 main #content .team {

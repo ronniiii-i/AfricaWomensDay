@@ -9,16 +9,19 @@
 
 /* content image */
 .firstImage {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/firstImage.svg), lightgray 50% / cover no-repeat;
-    height: 620px;
-    width: 1348px;
-    position: relative;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/firstImage.svg) center top, lightgray 50% / cover no-repeat;
+    /* height: 620px; */
+    background-size: 100%;
+    min-height: 55vh;
+    width: 100%;
+    padding: 3vw;
+    /* position: relative; */
 
 }
 
 .firstImage p {
-    width: 905px;
-    height: 132.267px;
+    /* width: 905px; */
+    /* height: 132.267px; */
     color: #FFF;
     font-size: 40px;
     font-family: 'Inter', sans-serif;
@@ -26,9 +29,9 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    position: absolute;
+    /* position: absolute;
     top: 265px;
-    left: 145px;
+    left: 145px; */
 }
 
 .hm-pt {
@@ -62,12 +65,8 @@
 
 .para {
     color: #000;
-    font-family: 'Lato', sans-serif;
-    font-size: 25px;
-    font-style: normal;
+    font-family: var(--gent);
     font-weight: 500;
-    line-height: normal;
-    letter-spacing: 1.05px;
 }
 
 .partners-info {
@@ -75,31 +74,37 @@
     margin: 0 auto;
 
 }
-.partner{
+
+.partner {
     gap: 3%;
     row-gap: 2rem;
     margin-block: 4rem;
 }
-.partner a{
+
+.partner a {
     width: 30%;
     padding: 1vw;
     min-width: 200px;
 }
-.partner a img{
+
+.partner a img {
     width: 100%;
 }
 
-.partner p{
+.partner p {
     font-size: 1.1rem;
     width: 65%;
     min-width: 250px;
     padding: 1vw;
+    font-family: var(--gent);
 }
-.partner p a{
+
+.partner p a {
     display: inline;
     padding: 0;
     font-size: 1.1rem;
     font-style: italic;
+    font-family: var(--lora);
 }
 
 .last-container {
@@ -108,7 +113,7 @@
     min-width: 250px;
     /* height: 287px; */
     padding: 2vw;
-    margin-bottom: 154px;
+    margin-bottom: 5rem;
     background: rgba(129, 165, 185, 0.10);
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
@@ -117,6 +122,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.last-container *{
+    margin-block: 1rem;
 }
 
 .last-container h3 {
@@ -128,12 +136,11 @@
 }
 
 .last-container img {
-    margin-top: 20px;
+    margin: 0;
 }
 
-.last-container a{
+.last-container a {
     font-family: 'Lora', serif;
-    margin-block: 1rem;
     font-style: italic;
 }
 
@@ -219,23 +226,23 @@ hr{
 @media only screen and (max-width: 600px) {
     .firstImage {
         width: 100%;
-        height: 160px;
-        background-image: url(../images/firstImage.svg);
+        min-height: 45vh;
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         background-color: rgba(134, 130, 130, 0.932);
-        position: relative;
+        /* position: relative; */
 
     }
 
     .firstImage p {
         color: #FFF;
-        left: 20px;
-        font-weight: 300px;
-        font-size: 20px;
+        /* left: 20px; */
+        font-weight: 300;
+        /* font-size: 20px; */
         width: 80%;
-        position: absolute;
-        top: 70px;
+        /* position: absolute; */
+        /* top: 70px; */
     }
 
     .firstImage button {
@@ -287,18 +294,6 @@ hr{
 
     }
 
-    .last-container {
-        width: 100%;
-        height: 220px;
-        padding-top: 20px;
-    }
-
-    .last-container h3 {
-        text-align: center;
-        font-size: 18px;
-        /* font-weight: 500px; */
-        font-weight: bolder;
-    }
 
     .last-button {
         margin-top: 30px;
@@ -324,18 +319,22 @@ hr{
 
 }
 
+@media only screen and (max-width: 781px) {
+    .partner p {
+        width: 100%;
+    }
+}
 
-
-@media only screen and (min-width:700px) and (max-width:1100px) {
+@media screen and (min-width:700px) and (max-width:1100px) {
 
 
     .firstImage {
         width: 100%;
-        height: 380px;
-        background-image: url(../images/firstImage.svg);
+        /* height: 380px; */
         background-repeat: no-repeat;
         background-size: cover;
         background-color: rgba(134, 130, 130, 0.932);
+        /* background-position: 50% top; */
         position: relative;
     }
 
@@ -343,12 +342,12 @@ hr{
 
     .firstImage p {
         color: #FFF;
-        font-weight: 500px;
-        font-size: 35px;
+        font-weight: 500;
+        /* font-size: 35px; */
         width: 95%;
-        position: absolute;
-        top: 150px;
-        left: 40px;
+        /* position: absolute; */
+        /* top: 150px; */
+        /* left: 40px; */
     }
 
     .firstImage button {
@@ -384,18 +383,6 @@ hr{
 
     .girlsintech p {
         width: 100%;
-    }
-
-    .last-container {
-        width: 100%;
-        height: 250px;
-        padding-top: 40px;
-    }
-
-    .last-container h3 {
-        text-align: center;
-        font-size: 25px;
-        font-weight: bolder;
     }
 
     .last-button {
