@@ -220,6 +220,17 @@ header .burger.active .line3 {
     transition: height 2s;
   }
 
+  header nav ul li a.button {
+    border: none;
+    /* padding: .r; */
+    border-radius: 0;
+    background: white;
+    color: #11567f;
+    width: fit-content;
+    font-size: 1.1rem;
+    position: relative;
+}
+
   header nav ul li:hover a .line,
   header nav ul li:hover .a .line {
     background-color: white;
@@ -254,9 +265,21 @@ header .burger.active .line3 {
   header nav ul li ol li a {
     padding: 0.5rem 0;
   }
+  header nav ul li ol li a:hover {
+    background-color: transparent;
+    color: white;
+  }
 
   header .burger {
     display: flex;
     margin-right: 1rem;
   }
+}
+
+@media screen and (max-width: 300px){
+header .logo {
+    width: 80%;
+    /* max-width: 250px; */
+    min-width: 0px;
+}
 }
