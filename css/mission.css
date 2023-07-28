@@ -1,190 +1,194 @@
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap");
 
 main #hero {
-    background: url('../images/missionhero.png') top no-repeat;
+  background:
+    linear-gradient(#00000098, #00000098),
+    url("../images/abouthero.webp") no-repeat;
+  background-position: 50% 60%;
 }
 
 main #content {
-    padding: 2vw;
+  padding: 2vw;
 }
 
 main #content .row {
-    width: 80%;
-    margin: 0 auto 3rem;
-    font-weight: 700;
-    color: #000;
-    font-size: 1.2rem;
-    padding: 1vw;
+  width: 80%;
+  margin: 0 auto 3rem;
+  font-weight: 700;
+  color: #000;
+  font-size: 1.2rem;
+  padding: 1vw;
 }
 
 main #content .row:nth-child(even) {
-    background: linear-gradient(90deg, #3175A1 0%, #81A5B9 69.83%, #81A5B9 100%);
-    color: white;
+  background: linear-gradient(90deg, #3175a1 0%, #81a5b9 69.83%, #81a5b9 100%);
+  color: white;
 }
 
 main #content .row .title {
-    width: 22%;
-    min-width: 120px;
-    text-align: center;
+  width: 22%;
+  min-width: 120px;
+  text-align: center;
 }
 
 main #content .row .text {
-    border-left: 5px solid #11567F;
+  border-left: 5px solid #11567f;
 }
 
 main #content .row:nth-child(even) .text {
-    border-color: white;
+  border-color: white;
 }
 
 main #content .row p {
-    padding: calc(1rem + 1vw);
+  padding: calc(1rem + 1vw);
+  font-family: var(--gent);
 }
 
 main #content article {
-    width: 80%;
-    margin: 3rem auto;
-    padding: 1vw;
+  width: 80%;
+  margin: 3rem auto;
+  padding: 1vw;
 }
 
 main #content article * {
-    margin-block: 1rem;
+  margin-block: 1rem;
 }
 
 main #content article h3 {
-    text-align: center;
-    color: #11567F;
-    font-family: var(--inter);
+  text-align: center;
+  color: #11567f;
+  font-family: var(--inter);
 }
 
 main #content article p {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
+  font-family: var(--gent);
 }
 
 main #content .team {
-    width: 80%;
-    margin: 3rem auto;
-    padding: 1vw;
+  width: 80%;
+  margin: 3rem auto;
+  padding: 1vw;
 }
 
 main #content .team h3 {
-    margin-block: 1rem;
-    text-align: center;
-    color: #11567F;
-    font-family: var(--inter);
+  margin-block: 1rem;
+  text-align: center;
+  color: #11567f;
+  font-family: var(--inter);
 }
 
 main #content .team .flex {
-    gap: 3%;
-    row-gap: 3rem;
+  gap: 3%;
+  row-gap: 3rem;
 }
 
 main #content .team .flex .person {
-    padding: 1vw;
-    width: 40%;
-    min-width: 250px;
+  padding: 1vw;
+  width: 40%;
+  min-width: 250px;
 }
 
 main #content .team .flex .person .img {
-    width: 100%;
+  width: 100%;
 }
 
 main #content .team .flex .person .img img {
-    width: 100%;
+  width: 100%;
 }
 
 main #content .team .flex .person .text {
-    padding: 1vw;
-    text-align: center;
+  padding: 1vw;
+  text-align: center;
 }
 
 main #content .team .flex .person .text * {
-    margin-block: .5rem;
+  margin-block: 0.5rem;
 }
 
 main #content .team .flex .person .text p {
-    font-size: 1.1rem;
-    font-family: 'Lora', serif;
-    font-style: italic;
-    font-weight: 500;
+  font-size: 1.1rem;
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: 500;
 }
 
 main #content .team .flex .person .text small {
-    font-family: 'Gentium Plus', serif;
-    font-size: 1rem;
+  font-family: "Gentium Plus", serif;
+  font-size: 1rem;
 }
 
-
 main #cta {
-    background-color: #3175A1;
-    text-align: center;
-    padding: 2vw 4vw;
+  background-color: #3175a1;
+  text-align: center;
+  padding: 2vw 4vw;
 }
 
 main #cta * {
-    margin-block: 1.3rem;
-    color: #FFF;
-    text-align: center;
-    font-family: var(--lato);
+  margin-block: 1.3rem;
+  color: #fff;
+  text-align: center;
+  font-family: var(--lato);
 }
 
 main #cta h3 {
-    font-size: 2.2rem;
-    font-style: normal;
-    line-height: normal;
+  font-size: 2.2rem;
+  font-style: normal;
+  line-height: normal;
 }
 
 main #cta .line {
-    width: 70%;
-    height: 3px;
-    background-color: white;
-    margin: auto;
+  width: 70%;
+  height: 3px;
+  background-color: white;
+  margin: auto;
 }
 
 main #cta button {
-    border: none;
-    padding: .5rem 1rem;
-    border-radius: 4px;
-    background: #11567F;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background: #11567f;
 }
 
 @media screen and (max-width: 500px) {
-    main #content .row {
-        flex-direction: column;
-        padding: 2vw 4vw;
-    }
+  main #content .row {
+    flex-direction: column;
+    padding: 2vw 4vw;
+  }
 
-    main #content .row .title {
-        border-bottom: 3px solid #11567F;
-        width: 90%;
-    }
+  main #content .row .title {
+    border-bottom: 3px solid #11567f;
+    width: 90%;
+  }
 
-    main #content .row:nth-child(even) .title {
-        border-color: white;
-    }
+  main #content .row:nth-child(even) .title {
+    border-color: white;
+  }
 
-    main #content .row .text {
-        border: none;
-    }
+  main #content .row .text {
+    border: none;
+  }
 
-    main #content .connected {
-        flex-direction: column;
-        height: fit-content;
-    }
+  main #content .connected {
+    flex-direction: column;
+    height: fit-content;
+  }
 
-    main #content .connected .img,
-    main #content .connected .text {
-        width: 100%;
-    }
+  main #content .connected .img,
+  main #content .connected .text {
+    width: 100%;
+  }
 
-    main #content .connected .img {
-        max-height: 250px;
-    }
+  main #content .connected .img {
+    max-height: 250px;
+  }
 
-    main #content .connected .text * {
-        margin-block: 1rem;
-    }
+  main #content .connected .text * {
+    margin-block: 1rem;
+  }
 
-    main #content .connected .img img {
-        width: 100%;
-    }
+  main #content .connected .img img {
+    width: 100%;
+  }
 }

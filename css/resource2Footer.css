@@ -1,22 +1,22 @@
-footer{
-    margin-top: 154px;
-    color: #FFFF;
-    /* border: 2px solid yellow; */
+footer {
+  margin-top: 154px;
+  color: #ffff;
+  /* border: 2px solid yellow; */
 }
 
-.firstFootContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 328px;
-    font-size: 20px;
-    font-weight: 400;
-    background-color: #3175A1;
+.firstFootContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 328px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #3175a1;
 }
 
-.getInvolvedCont{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+.getInvolvedCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
