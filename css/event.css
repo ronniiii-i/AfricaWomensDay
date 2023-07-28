@@ -5,11 +5,11 @@ main #hero {
     padding: 5vw;
 }
 
-main #hero.ev{
-    background-attachment: fixed;
-}
-@media screen and (max-height: 650px) and () {
-    
+@media screen and (max-height: 650px) and (min-width: 1200px) {
+    main #hero.ev{
+        height: 90vh;
+        background-attachment: fixed;
+    }   
 }
 
 main #hero.post {
