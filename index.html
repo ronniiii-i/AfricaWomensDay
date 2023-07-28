@@ -3,95 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, user-scale=1.0" />
-    <title>Afica's Women's Day</title>
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="icon" href="./images/AfricaLogo.svg"/>
+    <title>Africa's Women's Day</title>
+    <link rel="icon" href="./images/AfricaLogo.svg" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="icon" href="./images/AfricaLogo.svg" />
+    <script defer src="./js/nav.js"></script>
   </head>
   <body>
     <div class="generalContainer">
-      <header>
-        <nav>
-          
-          <div class="leftCont">
-            <a class="home" href="./index.html">
+      <header class="flex justify-between align-center wrap">
+        <div class="logo flex align-center justify-center">
+          <a class="home" href="/">
             <img src="./images/AfricaLogo.svg" alt="Logo" />
           </a>
-          <a class="home" href="./index.html">
+          <a class="home" href="/">
             <h2>AFRICA'S WOMEN'S DAY</h2>
           </a>
-          </div>
-        
-
-          <ul id="myLinks">
-            <li><a href="">MISSION</a></li>
-            <div class="icc">
-              <li>
-                <a href="">RESOURCES</a>
-                <div class="dropCont">
-                  <ul>
-                    <div class="dropdown-arrow"></div>
-                    <li><a href="">AWD Events</a></li>
-                    <li><a href="./gallery.html">AWD Gallery</a></li>
-                    <li>
-                      <a href=""
-                        >How to eliminate discrimination in the workplace</a
-                      >
-                    </li>
-                    <li>
-                      <a href=""
-                        >Gender Discrimination at the workplace: How common is
-                        it?</a
-                      >
-                    </li>
-                    <li><a href="">Improve equality for women in tech</a></li>
-                    <li><a href="">Applaud equality for women in sport</a></li>
-                  </ul>
-                </div>
-              </li>
-              <div class="dropIcon">
-                <img src="./images/downArrow.svg" alt="downArrow" />
-              </div>
-            </div>
-            
-            <li><a href="">DONATE</a></li>
-            <li><a href="">LOGIN</a></li>
-            <li><a href="">PARTNERS</a></li>
-            <!-- <div class="searchs"><img src="./images/search.svg" alt="search icon" /></div> -->
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="/">
+                HOME
+                <div class="line"></div>
+              </a>
+            </li>
+            <li>
+              <a href="./about.html">
+                ABOUT
+                <div class="line"></div>
+              </a>
+            </li>
+            <li>
+              <a href="./awd2023.html">
+                AWD 2023
+                <div class="line"></div>
+              </a>
+            </li>
+            <li>
+              <span class="a flex align-center justify-center">
+                GET INVOLVED
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 512 512"
+                >
+                  <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                  />
+                </svg>
+                <div class="line"></div>
+              </span>
+              <!-- Dropdown -->
+              <ol class="dropdown">
+                <li><a href="./event.html">AWD EVENTS</a></li>
+                <li><a href="./posts.html">AWD POSTS</a></li>
+                
+                <li><a href="./partner.html">PARTNERS</a></li>
+              </ol>
+            </li>
+            <li>
+              <a
+                href="https://sites.google.com/view/africaswomenday/donate"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                DONATE
+                <div class="line"></div>
+              </a>
+            </li>
           </ul>
         </nav>
-        <div class="hams">
-          <img onclick="myFunction()" src="./images/ham.png" alt="">
-        <!-- <svg onclick="myFunction()"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 32 32"
-          id="hamburger-menu"
-        >
-          <path
-            d="M26,3H6A3,3,0,0,0,3,6V26a3,3,0,0,0,3,3H26a3,3,0,0,0,3-3V6A3,3,0,0,0,26,3ZM21,21H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Zm0-4H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Zm0-4H11a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Z"
-            data-name="hamburger menu"
-          ></path>
-        </svg> -->
-      </div>
-      </header>
-      <div class="animate">
-        <div class="writeAndImg">
-          <div class="non">
-            <h2>AFRICA'S WOMEN'S DAY - JULY 31, 2023</h2>
-            <p>
-              Imagine a gender equal world free of <br />
-              bias, stereotypes and discrimination
-            </p>
-            <button><a href="">Explore</a></button>
-          </div>
-          <div class="image2Div">
-            <div class="bgimg2">
-              <img class="image2Img" src="./images/bgImg2.svg" alt="" />
-            </div>
-          </div>
+        <div class="burger flex column justify-between">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
         </div>
+      </header>
 
-        <div class="imageContainer">
-          <img class="lll" src="./images/bgImg1.svg" alt="" />
+      <div class="animate flex align-center">
+        <div class="non">
+          <h2>AFRICA'S WOMEN'S DAY - JULY 31, 2023</h2>
+          <p>
+            Imagine a gender equal world free of bias, stereotypes and
+            discrimination
+          </p>
+          <!-- <button><a href="">Explore</a></button> -->
+        </div>
+        <div class="image2Div">
+          <img class="image2Img" src="./images/bgImg2.svg" alt="" />
         </div>
       </div>
 
@@ -118,7 +119,7 @@
             </p>
           </div>
 
-          <div class="subSection2Images">
+          <!-- <div class="subSection2Images">
             <div class="image1Cont">
               <div class="moveUp">
                 <img class="imageDisplay" src="./images/sec2Img1.svg" alt="" />
@@ -142,7 +143,7 @@
               </div>
               <p>Search or promote AWD events</p>
             </div>
-          </div>
+          </div> -->
 
           <!-- Africa women's Day mission design started here -->
           <div class="writeUpAfterImage">
@@ -153,25 +154,56 @@
               women's achievements and increasing visibility, while calling out
               inequality, is key.
             </p>
-            <div class="learnBtn">Learn about what we do</div>
+            <a href="./about.html" class="learnBtn">What we do</a>
           </div>
         </div>
       </div>
 
       <div class="ourPartner">
-        <h2>Our Partner</h2>
+        <h2>Our Partners</h2>
+        <div class="flex justify-center align-center wrap">
+          <a
+            href="https://girlsintechnigeria.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="images/girlsintech.svg" alt="GirlsInTechNigeria" />
+          </a>
+          <a
+            href="https://africanwomenineurope.eu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/awe.webp" alt="African Women in Europe" />
+          </a>
+          <a
+            href="https://africawomenintrade.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/awt.webp" alt="Africa Women in Trade" />
+          </a>
+          <a
+            href="https://www.instagram.com/jgusldesigns/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/jgusl designs.png" alt="Jgusl Designs" />
+          </a>
+          <a
+            href="https://pawowomen.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./images/Pawo.svg"
+              alt="Pan-African Women’s Organization"
+            />
+          </a>
+        </div>
       </div>
 
-      <div class="partnerImg_div">
-        <img src="./images/partnerImg.svg" alt="" />
-      </div>
-
-      <div class="supporters">
-        <h2>Our Generous Supporters</h2>
-        <div class="sponsorsBtn">Sponsors</div>
-      </div>
-
-      <div class="events">
+      <!-- <div class="events">
         <div class="upcomingEvents">
           <h2>Upcoming Events</h2>
           <svg
@@ -241,46 +273,10 @@
           </div>
           <div class="readmoreBtn"><a href="">Read More</a></div>
         </div>
-      </div>
+      </div> -->
 
       <!-- footer started here -->
       <footer>
-        <div class="firstFootContainer">
-          <div class="firstFootContainerWriteUp">
-            <h2>
-              Africa's Women's Day is powered by the collective efforts of all
-            </h2>
-            <p>
-              Collective action and shared ownership for driving gender parity
-              is what makes International Women's Day impactful. Gloria <br />
-              Steinem, world-renowned feminist, journalist and activist once
-              explained "The story of women's struggle for equality belongs
-              <br />
-              to no single feminist nor to any one organization but to the
-              collective efforts of all who care about human rights." So make
-              <br />
-              Africa's Women's Day your day and do what you can to truly make a
-              positive difference.
-            </p>
-            <div class="getInvolvedCont">
-              <h2>Get Involved in Our Network</h2>
-              <svg
-                width="46"
-                height="40"
-                viewBox="0 0 46 40"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect x="0.5" width="45" height="40" rx="4" fill="#D21116" />
-                <path
-                  d="M40.5565 20.5678C41.1462 19.9859 41.1526 19.0362 40.5708 18.4465L31.0893 8.8365C30.5075 8.24678 29.5577 8.24039 28.968 8.82222C28.3783 9.40405 28.3719 10.3538 28.9537 10.9435L37.3817 19.4857L28.8395 27.9137C28.2498 28.4955 28.2434 29.4452 28.8252 30.0349C29.407 30.6247 30.3568 30.631 30.9465 30.0492L40.5565 20.5678ZM6.49363 20.7778L39.4929 20.9999L39.5131 18L6.51382 17.7779L6.49363 20.7778Z"
-                  fill="white"
-                />
-              </svg>
-            </div>
-          </div>
-        </div>
-
         <!-- second footer container starts here -->
         <div class="secondFootContainer">
           <div class="secondFootContainerInnerCont">
@@ -290,7 +286,9 @@
                 <h2>AFRICA'S WOMEN'S DAY</h2>
               </div>
               <p>
-                An Integrated, Prosperous and Peaceful Africa, <br> driven by its own citizens and representing <br> a dynamic force in the global arena.
+                An Integrated, Prosperous and Peaceful Africa, <br />
+                driven by its own citizens and representing <br />
+                a dynamic force in the global arena.
               </p>
             </div>
             <div class="subCont2">
@@ -481,7 +479,5 @@
         </div>
       </footer>
     </div>
-
-    <script src="./navBar.js"></script>
   </body>
 </html>

@@ -1,0 +1,283 @@
+@import url("./nav.css");
+@import url("./main.css");
+@import url("./footer.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.sub-links a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.gallery {
+  margin: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  column-gap: 20px;
+}
+
+/* .gallery > div {
+    height: 200px;
+  } */
+
+.gallery div>img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+
+}
+
+.image_container {
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  /* background-color: #fefefe; */
+  margin: auto;
+  width: 80%;
+  position: relative;
+  gap: 3%;
+  row-gap: 2rem;
+}
+
+.close_btn {
+  fill: #ffffff;
+  font-size: 35px;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  right: 0;
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  background-color: red;
+}
+
+.close:hover,
+.close:focus {
+  /* color: #000; */
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.modal_image_container {
+  width: 35%;
+  min-width: 250px;
+  overflow: hidden;
+}
+
+.modal_image_container>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  width: 62%;
+  min-width: 250px;
+  background-color: #ffffff;
+  padding: 1vw;
+}
+
+.modal_text_container h3 {
+  text-align: center;
+}
+
+.modal_text_container * {
+  margin-block: .5rem;
+  font-family: 'Gentium Plus', serif;
+}
+
+
+.nav_arrows_container {
+  gap: 10px;
+}
+
+
+
+.nav_arrows_container>button {
+  border: none;
+  padding: 2.5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 0;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+.nav_arrows_container>button svg {
+  width: 100%;
+}
+
+
+/* #prev {
+  border-radius: 0 5px 5px 0;
+  border-left-color: transparent;
+}
+
+#next {
+  right: 0;
+  border-radius: 5px 0 0 5px;
+  border-right-color: transparent;
+} */
+
+/* body {
+    background-color: #fff;
+} */
+
+.heading {
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+    
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+} */
+
+.hero-image {
+  min-height: 60vh;
+  width: 100%;
+  background: linear-gradient(#00000098, #00000098), url('../images/galleryhero.png') center no-repeat;
+  background-size: cover;
+
+}
+
+.hero-image h1 {
+  font-family: 'Lora', serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 4rem;
+  font-style: italic;
+}
+
+@media screen and (max-width:892px) {
+  .modal_image_container {
+    display: none;
+  }
+
+  .text {
+    width: 100%;
+    padding: 2vw;
+  }
+
+  .modal-content {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width:730px) {
+  .modal-content {
+    width: 80%;
+  }
+}
+@media screen and (max-width:500px) {
+  .modal-content {
+    width: 90%;
+  }
+}
+@media screen and (max-width:400px) {
+  .modal-content {
+    width: 95%;
+    margin-block: 1vw;
+  }
+}
+
+@media screen and (max-width:600px) {
+  /* nav {
+        font-size: 8px;
+    } */
+
+  .images {
+    display: block;
+    gap: 0;
+    padding-left: 70px;
+    padding-right: 70;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .gallery {
+    display: block;
+  }
+
+  .gallery>div {
+    margin-top: 20px;
+  }
+
+  .images img {
+    cursor: pointer;
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .heading {
+    font-size: 18px;
+    /* margin: 0; */
+  }
+
+  .hero-image {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
