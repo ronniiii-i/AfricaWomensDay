@@ -1,169 +1,169 @@
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
-@import url('./main.css');
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+@import url("./main.css");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* content image */
 .firstImage {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/firstImage.svg) center top, lightgray 50% / cover no-repeat;
-    /* height: 620px; */
-    background-size: 100%;
-    min-height: 55vh;
-    width: 100%;
-    padding: 3vw;
-    /* position: relative; */
-
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    url(../images/firstImage.svg) center top,
+    lightgray 50% / cover no-repeat;
+  /* height: 620px; */
+  background-size: 100%;
+  min-height: 55vh;
+  width: 100%;
+  padding: 3vw;
+  /* position: relative; */
 }
 
 .firstImage p {
-    /* width: 905px; */
-    /* height: 132.267px; */
-    color: #FFF;
-    font-size: 40px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-    /* position: absolute;
+  /* width: 905px; */
+  /* height: 132.267px; */
+  color: #fff;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  /* position: absolute;
     top: 265px;
     left: 145px; */
 }
 
 .hm-pt {
-    margin: 35px 900px 0px 0px;
-    color: #000;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-
+  margin: 35px 900px 0px 0px;
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .inner {
-    width: 80%;
-    margin: 2rem auto;
+  width: 80%;
+  margin: 2rem auto;
 }
 
 .support {
-    color: #000;
-    font-family: 'Lato', sans-serif;
-    /* font-size: 35px; */
-    font-size: 25px;
-    font-style: normal;
-    /* font-weight: 700; */
-    font-weight: 500;
-    text-align: justify;
-    line-height: normal;
-    margin-bottom: 1rem;
+  color: #000;
+  font-family: "Lato", sans-serif;
+  /* font-size: 35px; */
+  font-size: 25px;
+  font-style: normal;
+  /* font-weight: 700; */
+  font-weight: 500;
+  text-align: justify;
+  line-height: normal;
+  margin-bottom: 1rem;
 }
 
 .para {
-    color: #000;
-    font-family: var(--gent);
-    font-weight: 500;
+  color: #000;
+  font-family: var(--gent);
+  font-weight: 500;
 }
 
 .partners-info {
-    width: 80%;
-    margin: 0 auto;
-
+  width: 80%;
+  margin: 0 auto;
 }
 
 .partner {
-    gap: 3%;
-    row-gap: 2rem;
-    margin-block: 4rem;
+  gap: 3%;
+  row-gap: 2rem;
+  margin-block: 4rem;
 }
 
 .partner a {
-    width: 30%;
-    padding: 1vw;
-    min-width: 200px;
+  width: 30%;
+  padding: 1vw;
+  min-width: 200px;
 }
 
 .partner a img {
-    width: 100%;
+  width: 100%;
 }
 
 .partner p {
-    font-size: 1.1rem;
-    width: 65%;
-    min-width: 250px;
-    padding: 1vw;
-    font-family: var(--gent);
+  font-size: 1.1rem;
+  width: 65%;
+  min-width: 250px;
+  padding: 1vw;
+  font-family: var(--gent);
 }
 
 .partner p a {
-    display: inline;
-    padding: 0;
-    font-size: 1.1rem;
-    font-style: italic;
-    font-family: var(--lora);
+  display: inline;
+  padding: 0;
+  font-size: 1.1rem;
+  font-style: italic;
+  font-family: var(--lora);
 }
 
 .last-container {
-    width: 80%;
-    margin: auto;
-    min-width: 250px;
-    /* height: 287px; */
-    padding: 2vw;
-    margin-bottom: 5rem;
-    background: rgba(129, 165, 185, 0.10);
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  width: 80%;
+  margin: auto;
+  min-width: 250px;
+  /* height: 287px; */
+  padding: 2vw;
+  margin-bottom: 5rem;
+  background: rgba(129, 165, 185, 0.1);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .last-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.last-container *{
-    margin-block: 1rem;
+.last-container * {
+  margin-block: 1rem;
 }
 
 .last-container h3 {
-    color: #000;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    font-weight: 500;
-    text-transform: uppercase;
+  color: #000;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .last-container img {
-    margin: 0;
+  margin: 0;
 }
 
 .last-container a {
-    font-family: 'Lora', serif;
-    font-style: italic;
+  font-family: "Lora", serif;
+  font-style: italic;
 }
 
 footer {
-    margin-top: 154px;
-    color: #FFFF;
+  margin-top: 154px;
+  color: #ffff;
 }
 
 .firstFootContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 328px;
-    font-size: 20px;
-    font-weight: 400;
-    background-color: #3175A1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 328px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #3175a1;
 }
 
 .getInvolvedCont {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 /* .secondFootContainer{
@@ -221,172 +221,159 @@ hr{
     padding: 15px;
 } */
 
-
 /* RESPONSIVE DESIGN*/
 @media only screen and (max-width: 600px) {
-    .firstImage {
-        width: 100%;
-        min-height: 45vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-color: rgba(134, 130, 130, 0.932);
-        /* position: relative; */
+  .firstImage {
+    width: 100%;
+    min-height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(134, 130, 130, 0.932);
+    /* position: relative; */
+  }
 
-    }
+  .firstImage p {
+    color: #fff;
+    /* left: 20px; */
+    font-weight: 300;
+    /* font-size: 20px; */
+    width: 80%;
+    /* position: absolute; */
+    /* top: 70px; */
+  }
 
-    .firstImage p {
-        color: #FFF;
-        /* left: 20px; */
-        font-weight: 300;
-        /* font-size: 20px; */
-        width: 80%;
-        /* position: absolute; */
-        /* top: 70px; */
-    }
+  .firstImage button {
+    position: absolute;
+    font-size: 20px;
+    top: 125px;
+    left: 20px;
+    width: 80px;
+    height: 25px;
+    padding: 15px 50px;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .firstImage button {
-        position: absolute;
-        font-size: 20px;
-        top: 125px;
-        left: 20px;
-        width: 80px;
-        height: 25px;
-        padding: 15px 50px;
-        justify-content: center;
-        align-items: center;
-    }
+  .hm-pt {
+    width: 60%;
+  }
 
-    .hm-pt {
-        width: 60%;
-    }
+  .support {
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 60px;
+    text-align: left;
+  }
 
-    .support {
-        color: #000;
-        font-size: 20px;
-        font-weight: 300;
-        margin-top: 60px;
-        text-align: left;
-    }
+  .para {
+    margin-top: 80px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 1.05px;
+  }
 
-    .para {
-        margin-top: 80px;
-        font-size: 25px;
-        font-weight: 300;
-        text-align: left;
-        letter-spacing: 1.05px;
-    }
+  .girlsintech {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
 
-    .girlsintech {
-        flex-wrap: wrap;
-        margin-bottom: 30px;
-    }
+  .girlsintech img {
+    width: 100%;
+  }
 
-    .girlsintech img {
-        width: 100%;
+  .girlsintech p {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+  }
 
-    }
+  .last-button {
+    margin-top: 30px;
+  }
 
-    .girlsintech p {
-        width: 100%;
-        font-size: 18px;
-        text-align: left;
+  .firstFootContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 328px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #3175a1;
+  }
 
-    }
-
-
-    .last-button {
-        margin-top: 30px;
-    }
-
-    .firstFootContainer {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 328px;
-        font-size: 15px;
-        font-weight: 400;
-        background-color: #3175A1;
-
-    }
-
-    .getInvolvedCont {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
+  .getInvolvedCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
 }
 
 @media only screen and (max-width: 781px) {
-    .partner p {
-        width: 100%;
-    }
+  .partner p {
+    width: 100%;
+  }
 }
 
-@media screen and (min-width:700px) and (max-width:1100px) {
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+  .firstImage {
+    width: 100%;
+    /* height: 380px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(134, 130, 130, 0.932);
+    /* background-position: 50% top; */
+    position: relative;
+  }
 
+  .firstImage p {
+    color: #fff;
+    font-weight: 500;
+    /* font-size: 35px; */
+    width: 95%;
+    /* position: absolute; */
+    /* top: 150px; */
+    /* left: 40px; */
+  }
 
-    .firstImage {
-        width: 100%;
-        /* height: 380px; */
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: rgba(134, 130, 130, 0.932);
-        /* background-position: 50% top; */
-        position: relative;
-    }
+  .firstImage button {
+    position: absolute;
+    font-size: 30px;
+    top: 200px;
+    left: 40px;
+    width: 140px;
+    height: 50px;
+    padding: 26px 90px;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .hm-pt {
+    width: 50%;
+    font-size: 25px;
+  }
 
+  .support {
+    text-align: left;
+  }
 
-    .firstImage p {
-        color: #FFF;
-        font-weight: 500;
-        /* font-size: 35px; */
-        width: 95%;
-        /* position: absolute; */
-        /* top: 150px; */
-        /* left: 40px; */
-    }
+  .girlsintech {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
 
-    .firstImage button {
-        position: absolute;
-        font-size: 30px;
-        top: 200px;
-        left: 40px;
-        width: 140px;
-        height: 50px;
-        padding: 26px 90px;
-        justify-content: center;
-        align-items: center;
-    }
+  .girlsintech img {
+    width: 100%;
+  }
 
-    .hm-pt {
-        width: 50%;
-        font-size: 25px;
-    }
+  .girlsintech p {
+    width: 100%;
+  }
 
-    .support {
-        text-align: left;
-    }
-
-    .girlsintech {
-        flex-wrap: wrap;
-        margin-bottom: 30px;
-    }
-
-    .girlsintech img {
-        width: 100%;
-
-    }
-
-    .girlsintech p {
-        width: 100%;
-    }
-
-    .last-button {
-        margin-top: 50px;
-    }
-
+  .last-button {
+    margin-top: 50px;
+  }
 }
