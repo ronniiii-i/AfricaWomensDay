@@ -9,6 +9,7 @@
     <script defer src="./js/gallery.js"></script>
     <script defer src="./js/nav.js"></script>
     <title>Africa's Women's Day - Gallery</title>
+    <link rel="icon" href="./images/AfricaLogo.svg" />
   </head>
   <body>
     <div>
@@ -36,7 +37,7 @@
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="./awd2023.html">
                 AWD 2023
                 <div class="line"></div>
               </a>
@@ -60,12 +61,16 @@
               <ol class="dropdown">
                 <li><a href="./event.html">AWD EVENTS</a></li>
                 <li><a href="./posts.html">AWD POSTS</a></li>
-                <li><a href="./gallery.html">AWD GALLERY</a></li>
+
                 <li><a href="./partner.html">PARTNERS</a></li>
               </ol>
             </li>
             <li>
-              <a href="./donate.html">
+              <a
+                href="https://sites.google.com/view/africaswomenday/donate"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 DONATE
                 <div class="line"></div>
               </a>
@@ -78,46 +83,69 @@
           <div class="line line3"></div>
         </div>
       </header>
-      <div class="hero-image">
-        <img class="hero-image" src="./images/galleryhero.png" alt="" />
-      </div>
-      <div class="sub-links flex">
-        <a href="/">Home</a>
-        <a href="">/</a>
-        <a href="">About</a>
-        <a href="">/</a>
-        <a href="./gallery.html">Gallery</a>
-      </div>
-      <div class="container">
-        <div class="heading">Africa's Women's Day Gallery</div>
-        <div class="gallery"></div>
-      </div>
+      <main>
+        <div class="hero-image flex align-center justify-center">
+          <h1>AWD 2023</h1>
+        </div>
+        <div id="breadcrumb">
+          <a href="/">Home</a>
+          <a href="">/</a>
+          <a href="./awd2023.html">AWD 2023</a>
+        </div>
+        <div class="container">
+          <div class="heading">Africa's Women's Day 2023</div>
+          <div class="gallery"></div>
+        </div>
 
-      <!-- Modal -->
-      <div id="myModal" class="modal">
-        <div class="modal-content">
-          <!-- Modal close button -->
-          <span class="close_btn">&times;</span>
+        <!-- Modal -->
+        <div id="myModal" class="modal flex align-center justify-center">
+          <div class="modal-content flex align-center justify-center wrap">
+            <!-- Modal close button -->
+            <span class="close_btn flex align-center justify-center"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 384 512"
+              >
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                /></svg
+            ></span>
 
-          <div class="modal_image_container">
-            <img src="/dummy_image.jpg" id="slider_image" />
-          </div>
+            <div class="modal_image_container flex align-center justify-center">
+              <img src="/dummy_image.jpg" id="slider_image" />
+            </div>
+            <div class="text">
+              <div class="modal_text_container">
+                <h3 id="modal_title"></h3>
+                <div id="modal_body"></div>
+              </div>
 
-          <div class="modal_text_container">
-            <h3 id="modal_title"></h3>
-            <p id="modal_body"></p>
-          </div>
-
-          <div class="nav_arrows_container">
-            <button id="prev">
-              <!-- Put left arrow icon here -->
-            </button>
-            <button id="next">
-              <!-- Put right arrow icon here -->
-            </button>
+              <div
+                class="nav_arrows_container flex align-center justify-center"
+              >
+                <button class="flex align-center justify-center" id="prev">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+                    />
+                  </svg>
+                </button>
+                <button class="flex align-center justify-center" id="next">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </main>
 
       <!-- This is the footer -->
       <footer>
@@ -359,7 +387,5 @@
         </div>
       </footer>
     </div>
-    
-    
   </body>
 </html>

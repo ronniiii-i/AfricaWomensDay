@@ -34,6 +34,7 @@
 
 .animate .non * {
     color: #FFFF;
+    margin-block: 1rem;
 }
 
 .animate .image2Div {
@@ -120,6 +121,9 @@
     margin-top: 5rem;
 }
 
+.writeUpAfterImage *{
+    margin-block: 1.5rem;
+}
 
 .learnBtn {
     padding: 1vw 2vw;
@@ -129,7 +133,7 @@
     border-radius: 5px;
     background-color: #3175A1;
     color: #FFFF;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 }
