@@ -36,6 +36,10 @@
   margin-bottom: 30px;
 }
 
+.section p ~ div > p{
+  margin-bottom: 5px;
+}
+
 .related {
   text-align: center;
   margin-top: 2rem;
