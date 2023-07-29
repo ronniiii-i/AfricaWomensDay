@@ -1,4 +1,4 @@
-footer {
+/* footer {
   margin-top: 154px;
   color: #ffff;
 }
@@ -74,9 +74,9 @@ hr {
 .copywright {
   text-align: center;
   padding: 15px;
-}
+} */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   footer {
     margin-top: 100px;
   }
@@ -95,10 +95,10 @@ hr {
   .getInvolvedCont svg {
     height: 25px;
     width: 25px;
-  }
+  } */
 
-  /* Now styling the second footer container */
-  .secondFootContainerInnerCont {
+/* Now styling the second footer container */
+/* .secondFootContainerInnerCont {
     padding-top: 20px;
     flex-direction: column;
     padding-top: 49px;
@@ -109,8 +109,96 @@ hr {
   .subCont1Inner p {
     text-align: justify;
   }
+} */
+
+/* main ~ footer {
+  margin-top: 0;
+} */
+
+footer {
+  outline: 3px solid black;
+  background-color: #11567f;
+  padding-block: 2vw;
 }
 
-main ~ footer {
-  margin-top: 0;
+footer * {
+  color: #ffffff;
+}
+
+footer .secondFootContainer{
+  display: flex;
+  flex-direction: column;
+}
+footer .secondFootContainer .secondFootContainerInnerCont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* gap: 3%; */
+  row-gap: 2rem;
+}
+
+footer .secondFootContainer .secondFootContainerInnerCont .subCont1 {
+  width: 44%;
+  min-width: 250px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  margin-right: 6%;
+}
+
+footer .secondFootContainer .secondFootContainerInnerCont .subCont2,
+footer .secondFootContainer .secondFootContainerInnerCont .subCont3 {
+  width: 25%;
+  min-width: 150px;
+}
+
+footer .secondFootContainer .secondFootContainerInnerCont .subCont1 .subCont1Inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  /* margin-bottom: 1rem; */
+  width: 100%;
+}
+
+footer .secondFootContainer .secondFootContainerInnerCont .subCont1 .subCont1Inner img{
+  min-width: 70px;
+}
+footer .secondFootContainer .secondFootContainerInnerCont .subCont1 .subCont1Inner h2{
+  font-size: 2rem;
+}
+
+footer .secondFootContainer .secondFootContainerInnerCont .subCont1 p{
+  font-family: var(--gent);
+  width: 100%;
+  text-align: center;
+}
+
+
+footer .secondFootContainer .secondFootContainerInnerCont .subCont2 .subCont2InnerList,
+footer .secondFootContainer .secondFootContainerInnerCont .subCont3 .subCont2InnerList{
+  display: flex;
+  align-items: center;
+  margin-block: .5rem;
+}
+
+footer .secondFootContainer .secondFootContainerInnerCont .subCont2 .subCont2InnerList svg,
+footer .secondFootContainer .secondFootContainerInnerCont .subCont3 .subCont2InnerList svg{
+  width: 20px;
+  height: 20px;
+}
+
+footer .secondFootContainer .socials{
+  padding-bottom: 1vw;
+  margin-right: 3%;
+  margin-top: -3%;
+  align-self: flex-end;
+  width: 55%;
+  text-align: center;
+}
+
+footer .secondFootContainer .copywright{
+text-align: center;
+padding-top: 1rem;
 }
