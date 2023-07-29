@@ -60,15 +60,37 @@
 .subsection2 {
   width: 80%;
   margin: 0 auto;
+  /* position: relative; */
   /* border: 2px solid red; */
 }
+/* .flag{ */
+  /* position: relative; */
+  /* top: -90px; */
+  /* left: 10px; */
+  /* right: 450px; */
+  /* bottom: 10px; */
+
 
 .subSectionWriteUp {
-  margin-top: 37px;
+  /* margin-top: 5rem; */
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  /* width: 70%; */
+  /* margin: 0 auto; */
+  /* position: absolute; */
+  /* left: 100px; */
+  /* top: 200px; */
+
+}
+.mainDay{
+  margin-top: -50px;
 }
 
 .subSectionWriteUp p {
   font-family: var(--gent);
+  margin-top: 1rem;
 }
 
 .subSection2Images {
@@ -120,6 +142,9 @@
 
 .writeUpAfterImage {
   margin-top: 3rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .writeUpAfterImage * {
@@ -127,6 +152,38 @@
 }
 .writeUpAfterImage p {
   font-family: var(--gent);
+}
+.writeUpAfterImage img{
+  width: 100%;
+}
+#hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.45;
+  font-size: 18px;
+  color: #7b88a8;
+  background-color: #f8faff;
+}
+.masterWomen{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.womenContainer{
+  width: 50%;
+}
+#womanPictures{
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 5px;
 }
 
 .learnBtn {
@@ -142,6 +199,7 @@
   justify-content: center;
   align-items: center;
   transition: all 0.5s;
+  margin: 0 auto;
 }
 .learnBtn:hover {
   text-decoration: none;
@@ -151,10 +209,13 @@
 .upcoming{
   padding-block: 2vw;
   width: 80%;
-  margin: 3rem auto;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 .upcoming .img{
-  width: 60%;
+  width: 100%;
   margin-block: 1rem;
 }
 .upcoming .img img{
@@ -162,7 +223,12 @@
   /* min-width: 250px; */
 }
 .upcoming .text{
-  width: 80%;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
   padding-block: 1vw;
 }
 .upcoming .text h3{
@@ -171,7 +237,9 @@
 .upcoming .text p{
   font-family: var(--gent);
 }
-
+.upcoming #upcominggirls{
+  width: 10%;
+}
 .ourPartner {
   max-width: 80%;
   margin: 0 auto;
@@ -400,6 +468,14 @@ footer hr {
   .image2Img {
     display: none;
   }
+  .subSectionWriteUp{
+    margin-top: 5rem;
+  }
+  .flag{ 
+    position: relative;
+    left:100px;
+    top: 0px;
+  } 
 
   .events {
     width: 80%;
