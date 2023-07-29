@@ -195,25 +195,6 @@
   margin-top: 2rem;
 }
 
-footer h2 {
-  font-size: 2rem;
-}
-footer div {
-  padding: 0 !important;
-  margin: 0 !important;
-  height: fit-content !important;
-}
-footer .secondFootContainer {
-  padding: 2vw !important;
-  margin: auto;
-}
-footer .secondFootContainer .secondFootContainerInnerCont {
-  margin: auto !important;
-}
-footer hr {
-  margin-top: 0;
-}
-
 .supporters {
   max-width: 80%;
   margin: 0 auto;

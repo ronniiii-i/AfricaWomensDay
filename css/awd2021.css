@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700&display=swap");
+
+:root {
+  --inter: "Inter", sans-serif;
+  --lato: "Lato", sans-serif;
+  font-family: var(--lato);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* .container {
+  height: 100vh;
+  display: grid;
+  padding: 5px;
+  gap: 5px;
+  background-color: #fffff0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.4fr;
+  grid-template-areas:
+    "header header header header"
+    "body1 body1 body1 body1"
+    "body2 body2 body2 body2"
+    "body3 body3 body3 body3"
+    "footer footer footer footer";
+} */
+
+.header {
+  grid-area: header;
+  background-color: #f5f5f5;
+  height: 100px;
+}
+
+.header-text-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.body1 {
+  grid-area: body1;
+  background-color: #3175a1;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.body2 {
+  grid-area: body2;
+  background-color: #3175a1;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 3px;
+}
+
+.body3 {
+  grid-area: body3;
+  background-color: #3175a1;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 3px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #f5f5f5;
+  height: 100px;
+}
+
+.body1,
+.body2,
+.body3 {
+  display: flex;
+}
+
+.text-container {
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3rem;
+}
+
+@media screen and (max-width: 460px) {
+  .container {
+    height: 100vh;
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    background-color: #f0efe7;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 0.4fr;
+    grid-template-areas:
+      "header"
+      "body1"
+      "body2"
+      "body3"
+      "footer";
+  }
+
+  .body1,
+  .body2,
+  .body3 {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    border-radius: 5px;
+  }
+
+  .youtube-container iframe {
+    width: 100%;
+  }
+}

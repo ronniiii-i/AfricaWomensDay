@@ -133,9 +133,6 @@ main #cta button {
   background: #11567f;
 }
 
-main ~ footer {
-  margin-top: 0;
-}
 
 @media screen and (max-width: 800px) {
   main #featured .card {
