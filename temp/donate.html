@@ -1,52 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Africa Women's Day - Contact Us</title>
-    <link rel="stylesheet" href="./css/Contact Us.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/donate.css" />
     <script defer src="./js/nav.js"></script>
+    <title>Africa's Women's Day - Donate</title>
+    <link rel="icon" href="./images/AfricaLogo.svg" />
   </head>
   <body>
-    <!-- Header -->
     <header class="flex justify-between align-center wrap">
       <div class="logo flex align-center justify-center">
         <a class="home" href="/">
           <img src="./images/AfricaLogo.svg" alt="Logo" />
         </a>
         <a class="home" href="/">
-          <h2>AFRICA'S WOMEN'S DAY</h2>
+          <h2>Africa's Women's Day</h2>
         </a>
       </div>
       <nav>
         <ul>
           <li>
             <a href="/">
-              HOME
+              Home
               <div class="line"></div>
             </a>
           </li>
           <li>
             <a href="./about.html">
-              ABOUT
+              About
               <div class="line"></div>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="./awd2023.html">
               AWD 2023
               <div class="line"></div>
             </a>
           </li>
           <li>
             <span class="a flex align-center justify-center">
-              GET INVOLVED
+              Get Involved
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="1em"
@@ -61,16 +58,20 @@
             </span>
             <!-- Dropdown -->
             <ol class="dropdown">
-              <li><a href="./event.html">AWD EVENTS</a></li>
-              <li><a href="./posts.html">AWD POSTS</a></li>
-              <li><a href="./gallery.html">AWD GALLERY</a></li>
-              <li><a href="./partner.html">PARTNERS</a></li>
+              <li><a href="./event.html">AWD Events</a></li>
+              <li><a href="./posts.html">AWD Posts</a></li>
+
+              <li><a href="./partner.html">Partners</a></li>
             </ol>
           </li>
           <li>
-            <a href="./donate.html">
-              DONATE
-              <div class="line"></div>
+            <a
+              href="https://sites.google.com/view/africaswomenday/donate"
+              class="button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Donate
             </a>
           </li>
         </ul>
@@ -81,83 +82,91 @@
         <div class="line line3"></div>
       </div>
     </header>
-    <!-- Image section -->
-    <div class="image">
-      <h2>GET IN TOUCH</h2>
-    </div>
-    <!-- Main div -->
-    <div class="main">
-      <!-- Form Section -->
-      <div class="form">
-        <div class="formheader">
-          <div class="question">
-            <h6>Have a question for us?</h6>
+
+    <!-- <main>
+      <section id="hero" class="flex column justify-center">
+        <h2>SMALL STEP TO MAKE A</h2>
+        <h1>BIG IMPACT</h1>
+        <button>DONATE</button>
+      </section>
+      <section id="breadcrumb">
+        <a href="/">Home</a> / <a href="https://sites.google.com/view/africaswomenday/donate" target="_blank" rel="noopener noreferrer">Donate</a>
+      </section>
+      <section id="content">
+        <div class="join">
+          <h3>Join the Giving Circle</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque,
+            reprehenderit impedit ducimus vitae quas ea dolor dolorem mollitia
+            maxime optio eveniet corrupti soluta, corporis neque laudantium
+            sunt, eius incidunt quibusdam illum. Eligendi, rerum et iure
+            consectetur veniam soluta sint sequi sapiente explicabo praesentium
+            iste ipsa ducimus! Tempora a molestias recusandae praesentium ipsa
+            sunt? Sapiente laboriosam delectus accusamus adipisci dolores quae.
+          </p>
+          <h3>Support our mission today</h3>
+        </div>
+        <div class="row flex align-center">
+          <div class="left">
+            <p>THE GIVING CIRCLE</p>
+            <button>DONATE</button>
           </div>
-          <div class="filltheform">
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec
+            augue laoreet, volutpat libero vulputate, faucibus enim. Duis
+            ultrices est magna, sed sodales eros ornare in.
+          </p>
+        </div>
+        <div class="grid align-center col-2">
+          <div class="why">
+            <p class="blue">WHY DONATE?</p>
+            <p>AWD MATCHES EVERY PENNY YOU GIVE</p>
+            <p>So together, we do double the good.</p>
+          </div>
+          <div class="absolute"></div>
+          <div class="where">
+            <p class="blue">WHERE WILL MY DONATION GO?</p>
             <p>
-              Fill out the form below and our team will reach out to you in the
-              next few days.
+              100% OF YOUR KIND DONATION GOES STRAIGHT TO OUR PROJECTS AND
+              CHARITY
             </p>
           </div>
-          <img src="images/form design.png" alt="underline" />
         </div>
-        <div class="formdetails">
-          <form action="action_page.php" target="_self" method="post">
-            <input
-              type="text"
-              class="inputs"
-              placeholder="Your Name"
-              id="name"
-            />
-            <input
-              type="text"
-              class="inputs"
-              placeholder="Your Email"
-              id="email"
-            />
-            <input type="text" class="message" placeholder="Message" />
-            <button class="submit">
-              <h2>SUBMIT</h2>
-            </button>
-          </form>
+        <div class="cta">
+          <h3>
+            MAKE A MONTHLY DONATION AND KNOW THAT 100% WILL GO TO OUR PROJECTS
+            AND CHARITY
+          </h3>
+          <button>DONATE NOW</button>
         </div>
-      </div>
-      <!-- Reachout Mediums -->
-      <div class="reachout">
-        <div class="reachoutmediums">
-          <h2>ADDRESS</h2>
-          <div class="mediumpics">
-            <img src="images/location_pin.png" alt="location" />
-          </div>
-          <h2 id="h2">One Hudson Square75 Varick Street, 2nd</h2>
-        </div>
-        <div class="reachoutmediums">
-          <h2>PHONE NUMBER</h2>
-          <div class="mediumpics">
-            <img src="images/phone-call-1 1.png" alt="phone" />
-          </div>
-          <h2>(619) 619-3352</h2>
-        </div>
-        <div class="reachoutmediums">
-          <h2>EMAIL</h2>
-          <div class="mediumpics">
-            <img src="images/letter 1.png" alt="mail" />
-          </div>
-          <h2>Girlstec@gmail.com</h2>
-        </div>
-      </div>
-    </div>
-    <!-- Footer starts here -->
+      </section>
+    </main> -->
+    <main>
+      <iframe
+        src="https://sites.google.com/view/africaswomenday/donate"
+        frameborder="0"
+      ></iframe>
+    </main>
+
     <footer>
-      <div class="footerhead">
-        <div class="footerheadcontents">
-          <div class="awd">
-            <h2>Subscribe for AWD Event Updates</h2>
+      <div class="firstFootContainer flex align-center justify-center">
+        <div class="firstFootContainerWriteUp">
+          <div class="getInvolvedCont">
+            <h2>Get Involved in Our Network</h2>
+            <svg
+              width="46"
+              height="40"
+              viewBox="0 0 46 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect x="0.5" width="45" height="40" rx="4" fill="#D21116" />
+              <path
+                d="M40.5565 20.5678C41.1462 19.9859 41.1526 19.0362 40.5708 18.4465L31.0893 8.8365C30.5075 8.24678 29.5577 8.24039 28.968 8.82222C28.3783 9.40405 28.3719 10.3538 28.9537 10.9435L37.3817 19.4857L28.8395 27.9137C28.2498 28.4955 28.2434 29.4452 28.8252 30.0349C29.407 30.6247 30.3568 30.631 30.9465 30.0492L40.5565 20.5678ZM6.49363 20.7778L39.4929 20.9999L39.5131 18L6.51382 17.7779L6.49363 20.7778Z"
+                fill="white"
+              />
+            </svg>
           </div>
-          <img src="images/Line 20.png" alt="Line" id="Line" />
-          <button class="subscribe">
-            <h3>Subscribe</h3>
-          </button>
         </div>
       </div>
       <!-- second footer container starts here -->
@@ -165,8 +174,8 @@
         <div class="secondFootContainerInnerCont">
           <div class="subCont1">
             <div class="subCont1Inner">
-              <img src="./images/AfricaLogo.svg" alt="" />
-              <h2>AFRICA'S WOMEN'S DAY</h2>
+              <img src="./images/africa1.png" alt="logo" />
+              <h2>Africa's Women's Day</h2>
             </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />

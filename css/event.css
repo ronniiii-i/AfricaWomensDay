@@ -1,111 +1,144 @@
 main #hero {
-    background: url('../images/eventhero.png') bottom no-repeat;
-    background-size: cover;
-    min-height: 60vh;
-    padding: 5vw;
+  background:
+    linear-gradient(#00000098, #00000098),
+    url("../images/eventhero.png") bottom no-repeat;
+  background-size: cover;
+  min-height: 60vh;
+  padding: 5vw;
+}
+
+@media screen and (max-height: 650px) and (min-width: 1200px) {
+  main #hero.ev {
+    height: 90vh;
+    background-attachment: fixed;
+  }
 }
 
 main #hero.post {
-    background: url('../images/posthero.webp');
+  background: url("../images/posthero.webp");
 }
 
 main #hero h2 {
-    font-family: var(--inter);
-    color: white;
-    text-transform: uppercase;
+  font-family: var(--lora);
+  font-weight: 500;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+main #hero p {
+  font-family: var(--gent);
+  text-transform: none;
+  width: 60%;
+  text-align: center;
+  margin-block: 1rem;
 }
 
 main #breadcrumb {
-    text-transform: uppercase;
-    padding: 2vw;
+  text-transform: uppercase;
+  padding: 2vw;
 }
 
 main #breadcrumb a {
-    font-size: 1.2rem;
-    font-weight: 700;
-    display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: inline-block;
 }
 
 main #featured {
-    padding: 2vw 4vw;
+  padding: 2vw 4vw;
 }
 
 main #featured h2 {
-    font-family: var(--lato);
-    text-transform: uppercase;
-    margin-bottom: 2rem;
+  font-family: var(--lato);
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
 }
 
 main #featured .card {
-    margin-block: 2rem;
-    gap: 2rem 2rem;
-    background: rgba(129, 165, 185, 0.10);
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
-    width: 80%;
+  margin-block: 2rem;
+  gap: 2rem 2rem;
+  background: rgba(129, 165, 185, 0.1);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 80%;
+  margin: 2rem auto;
+  /* min-height: 400px; */
 }
 
 main #featured .card .img {
-    justify-content: center;
-    text-align: center;
+  justify-content: center;
+  text-align: center;
+  /* width: 50%; */
+  height: 100%;
 }
 
 main #featured .card .img img {
-    width: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 main #featured .card .text * {
-    font-family: var(--lato);
+  font-family: var(--lato);
+  /* text-align: right; */
+}
+
+main #featured .card .text h3 {
+  font-size: 1.7rem;
+  padding-top: 1rem;
 }
 
 main #featured .card .text p {
-    font-size: 1.6rem;
-    padding-block: 1rem;
+  font-family: var(--gent);
+  margin-block: 1rem;
 }
-
 main #featured .card .text a {
-    font-size: 2rem;
-    margin-block: 2rem;
+  font-size: 1.4rem;
+  margin-block: 1rem;
+  font-family: var(--lora);
 }
 
 main #cta {
-    background-color: #3175A1;
-    text-align: center;
-    padding: 2vw 4vw;
+  background-color: #3175a1;
+  text-align: center;
+  padding: 2vw 4vw;
 }
 
 main #cta * {
-    margin-block: 1.3rem;
-    color: #FFF;
-    text-align: center;
-    font-family: var(--lato);
+  margin-block: 1.3rem;
+  color: #fff;
+  text-align: center;
+  font-family: var(--lato);
 }
 
 main #cta h3 {
-    font-size: 2.2rem;
-    font-style: normal;
-    line-height: normal;
+  font-size: 2.2rem;
+  font-style: normal;
+  line-height: normal;
 }
 
 main #cta .line {
-    width: 70%;
-    height: 3px;
-    background-color: white;
-    margin: auto;
+  width: 70%;
+  height: 3px;
+  background-color: white;
+  margin: auto;
 }
 
 main #cta button {
-    border: none;
-    padding: .5rem 1rem;
-    border-radius: 4px;
-    background: #11567F;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background: #11567f;
 }
 
-main~footer {
-    margin-top: 0;
+main ~ footer {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 800px) {
-    main #featured .card {
-        width: 100%;
-    }
+  main #featured .card {
+    width: 100%;
+  }
 }
