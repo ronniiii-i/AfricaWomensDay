@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* .parent-container {
+  height: 100vh;
+  width: 100vw;
+  margin: 10px;
+  display: grid;
+  gap: 6px;
+  grid-template-columns: 0.8fr 0.3fr;
+  grid-template-rows: 0.4fr 1fr 1fr 1fr 0.5fr 0.1fr;
+  grid-template-areas:
+    "header header header header"
+    "firstbody firstbody firstbody sidebar"
+    "youtubecontainer youtubecontainer youtubecontainer sidebar"
+    "programss programss programss sidebar"
+    "footer footer footer footer";
+} */
+
+/* .header {
+  grid-area: header;
+  background-color: #fff;
+  box-shadow: rgba((100), 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #3175a1;
+  height: 100px;
+} */
+
+.header-text,
+.about-header {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstbody {
+  grid-area: firstbody;
+  border-radius: 3px;
+  box-shadow: rgba((100), 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1rem;
+}
+.youtubecontainer {
+  grid-area: youtubecontainer;
+  box-shadow: rgba((100), 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+}
+
+.youtubeContainer {
+  box-shadow: rgba((100), 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 100%;
+  width: 100%;
+  border: 3px;
+}
+
+.programss {
+  grid-area: programss;
+  box-shadow: rgba((100), 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.programssImageContainer {
+  padding: 1rem;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 5rem;
+  background-color: #3175a1;
+  border-radius: 3px;
+  box-shadow: rgba((100), 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 200px;
+}
+
+.sidebar .achorparent {
+  background-color: #fffff0;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4rem;
+}
+.sidebar .achorparent:hover {
+  border-radius: 10px;
+  opacity: 0.5;
+}
+/* sidebar */
+
+.footer {
+  grid-area: footer;
+  background-color: #3175a1;
+  box-shadow: rgba((100), 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 100px;
+}
+
+@media screen and (max-width: 769px) {
+}
+
