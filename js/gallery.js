@@ -164,9 +164,25 @@ const imagesData = [
   },
   {
     img: "../images/womenCEOs/cel27.png",
-    name: "Wassa Inoni",
+    name: "Rachel Panagiotopoulos",
     descripiton:
-      "Wassa Inoni is an accomplished Program Manager, Entrepreneur, and catalyst for positive change. With a strong background in Agile Methodology, IT Systems Infrastructure, and Product and Project Management in Construction & IT, Wassa has left an indelible mark on both the business and academic spheres.",
+      "Rachel Panagiotopoulos is a remarkable humanitarian and the visionary behind Let's Create Together Foundation, a transformative organization with a profound mission to uplift low-income families facing chronic illness. Her dedication lies in providing holistic care and support for children with sickle cell and their families, envisioning a world where equitable healthcare is accessible to all.Driven by a passion for making a measurable difference in the lives of others, Rachel's goal is to become a leader in improving the welfare of African children's healthcare, education, and advanced research. Her vision encompasses advocacy, school and hospital renovations, educational specialty programs, community workshops, and support groups for children battling diseases, particularly sickle cell, and poverty.Having grown up in Ghana, Rachel witnessed firsthand the inadequacies of the healthcare system that tragically led to more deaths and complications within her own family. The loss of her own biological mother at a tender age instilled in her a burning desire to bridge the gaps in the healthcare system across Africa",
+  },
+  {
+    img: "../images/womenCEOs/cel28.png",
+    name: "Dr. Iman Abuzeid",
+    descripiton:
+      "Rachel Panagiotopoulos is a remarkable humanitarian and the visionary behind Let's Create Together Foundation, a transformative organization with a profound mission to uplift low-income families facing chronic illness. Her dedication lies in providing holistic care and support for children with sickle cell and their families, envisioning a world where equitable healthcare is accessible to all.Driven by a passion for making a measurable difference in the lives of others, Rachel's goal is to become a leader in improving the welfare of African children's healthcare, education, and advanced research. Her vision encompasses advocacy, school and hospital renovations, educational specialty programs, community workshops, and support groups for children battling diseases, particularly sickle cell, and poverty.Having grown up in Ghana, Rachel witnessed firsthand the inadequacies of the healthcare system that tragically led to more deaths and complications within her own family. The loss of her own biological mother at a tender age instilled in her a burning desire to bridge the gaps in the healthcare system across Africa",
+  },{
+    img: "../images/womenCEOs/cel27.png",
+    name: "Awatif Baroud",
+    descripiton:
+      "Rachel Panagiotopoulos is a remarkable humanitarian and the visionary behind Let's Create Together Foundation, a transformative organization with a profound mission to uplift low-income families facing chronic illness. Her dedication lies in providing holistic care and support for children with sickle cell and their families, envisioning a world where equitable healthcare is accessible to all.Driven by a passion for making a measurable difference in the lives of others, Rachel's goal is to become a leader in improving the welfare of African children's healthcare, education, and advanced research. Her vision encompasses advocacy, school and hospital renovations, educational specialty programs, community workshops, and support groups for children battling diseases, particularly sickle cell, and poverty.Having grown up in Ghana, Rachel witnessed firsthand the inadequacies of the healthcare system that tragically led to more deaths and complications within her own family. The loss of her own biological mother at a tender age instilled in her a burning desire to bridge the gaps in the healthcare system across Africa",
+  },{
+    img: "../images/womenCEOs/cel27.png",
+    name: "Dr. Umetinahme Iguoba",
+    descripiton:
+      "Rachel Panagiotopoulos is a remarkable humanitarian and the visionary behind Let's Create Together Foundation, a transformative organization with a profound mission to uplift low-income families facing chronic illness. Her dedication lies in providing holistic care and support for children with sickle cell and their families, envisioning a world where equitable healthcare is accessible to all.Driven by a passion for making a measurable difference in the lives of others, Rachel's goal is to become a leader in improving the welfare of African children's healthcare, education, and advanced research. Her vision encompasses advocacy, school and hospital renovations, educational specialty programs, community workshops, and support groups for children battling diseases, particularly sickle cell, and poverty.Having grown up in Ghana, Rachel witnessed firsthand the inadequacies of the healthcare system that tragically led to more deaths and complications within her own family. The loss of her own biological mother at a tender age instilled in her a burning desire to bridge the gaps in the healthcare system across Africa",
   },
 ];
 

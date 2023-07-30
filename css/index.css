@@ -185,6 +185,66 @@
   border-radius: 10px;
   margin: 5px;
 }
+#slider{
+  height:500px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 1600px;
+  margin: auto;
+}
+.subcontainer{
+  width: 85%;
+  margin: auto;
+}
+.slide-img{
+  width: 100%;
+  height: 370px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.slide-img:hover{
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.slide-img a{
+  opacity: 0;
+  text-decoration: none;
+  transform: scale(0);
+  transition:0.8s;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.slide-img:hover a{
+  opacity: 1;
+  transform: scale(1);
+}
+.img-1{
+  background-image: url("../images/upcoming.webp")
+}
+.img-2{
+  background-image: url("../images/womenCEOS/cel1.jpeg")
+}
+.img-3{
+  background-image: url("../images/womenCEOS/cel2.jpeg")
+}
+.img-4{
+  background-image: url("../images/womenCEOS/cel3.jpeg")
+}
+.img-5{
+  background-image: url("../images/womenCEOS/cel4.jpeg")
+}
 
 .learnBtn {
   padding: 0.5rem 1rem;
@@ -549,5 +609,10 @@ footer hr {
     gap: 10px;
     box-shadow: 0px 0px 5px grey;
     /* border: 1px solid fuchsia; */
+  }
+}
+@media(max-width:1600px){
+  .container{
+    width: 100%;
   }
 }
