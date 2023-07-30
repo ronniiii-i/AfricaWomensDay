@@ -37,7 +37,7 @@
   margin-block: 1rem;
 }
 .animate .non p {
-  font-family: var(--gent);
+  font-family: var(--pop);
 }
 
 .animate .image2Div {
@@ -89,7 +89,7 @@
 }
 
 .subSectionWriteUp p {
-  font-family: var(--gent);
+  font-family: var(--pop);
   margin-top: 1rem;
 }
 
@@ -151,7 +151,7 @@
   margin-block: 1rem;
 }
 .writeUpAfterImage p {
-  font-family: var(--gent);
+  font-family: var(--pop);
 }
 .writeUpAfterImage img{
   width: 100%;
@@ -295,7 +295,7 @@
   margin-bottom: 1rem;
 }
 .upcoming .text p{
-  font-family: var(--gent);
+  font-family: var(--pop);
 }
 .upcoming #upcominggirls{
   width: 10%;

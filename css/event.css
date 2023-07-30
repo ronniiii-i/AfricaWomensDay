@@ -27,7 +27,7 @@ main #hero h2 {
 }
 
 main #hero p {
-  font-family: var(--gent);
+  font-family: var(--pop);
   text-transform: none;
   width: 60%;
   text-align: center;
@@ -91,7 +91,7 @@ main #featured .card .text h3 {
 }
 
 main #featured .card .text p {
-  font-family: var(--gent);
+  font-family: var(--pop);
   margin-block: 1rem;
 }
 main #featured .card .text a {

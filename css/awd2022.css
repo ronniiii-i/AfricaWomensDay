@@ -59,7 +59,7 @@ aside h3 {
 }
 
 aside a {
-  font-family: var(--gent);
+  font-family: var(--pop);
   color: #ffffff;
   transition: color 0.3s ease;
 }
@@ -86,7 +86,7 @@ aside a:hover {
 }
 
 .about-text p {
-  font-family: var(--gent);
+  font-family: var(--pop);
 }
 
 .firstbody {

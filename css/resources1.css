@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "lato", sans-serif;
+  font-family: var(--pop);
   /* border: 1px solid red; */
 }
 
@@ -32,7 +32,7 @@
 }
 
 .section p {
-  font-family: "lato", sans-serif;
+  font-family: var(--pop);
   margin-bottom: 30px;
 }
 

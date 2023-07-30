@@ -106,7 +106,7 @@ main .card .youtube-container iframe{
 }
 
 .text-container p{
-  font-family: var(--gent);
+  font-family: var(--pop);
 }
 
 @media screen and (max-width: 664px) {
