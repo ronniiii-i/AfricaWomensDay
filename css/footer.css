@@ -15,6 +15,7 @@ footer .secondFootContainer {
 footer .secondFootContainer .secondFootContainerInnerCont {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   /* gap: 3%; */
   row-gap: 2rem;
@@ -61,28 +62,35 @@ footer .secondFootContainer .secondFootContainerInnerCont .subCont1 p {
 
 
 footer .secondFootContainer .secondFootContainerInnerCont .subCont2 .subCont2InnerList,
-footer .secondFootContainer .secondFootContainerInnerCont .subCont3 .subCont2InnerList {
+footer .secondFootContainer .secondFootContainerInnerCont .subCont3 {
   display: flex;
   align-items: center;
+  /* margin-block: .5rem; */
+}
+
+footer .secondFootContainer .secondFootContainerInnerCont .subCont2 .subCont2InnerList:hover{
+  text-decoration-color: #ffffff;
+}
+
+footer .secondFootContainer .secondFootContainerInnerCont .subCont3 {
+  flex-direction: column;
+}
+
+footer .secondFootContainer .secondFootContainerInnerCont .subCont3 h3,
+footer .secondFootContainer .secondFootContainerInnerCont .subCont3 .socialLogo {
   margin-block: .5rem;
 }
 
-footer .secondFootContainer .secondFootContainerInnerCont .subCont2 .subCont2InnerList svg,
-footer .secondFootContainer .secondFootContainerInnerCont .subCont3 .subCont2InnerList svg {
-  width: 20px;
-  height: 20px;
+footer .secondFootContainer .secondFootContainerInnerCont .subCont3 .socialLogo *{
+  margin: 0 .5rem;
 }
 
-footer .secondFootContainer .socials {
-  padding-bottom: 1vw;
-  margin-right: 3%;
-  margin-top: -3%;
-  align-self: flex-end;
-  width: 55%;
+footer .secondFootContainer .secondFootContainerInnerCont .subCont2 .subCont2InnerList svg {
+  display: none;
 }
 
-footer .secondFootContainer .socials * {
-  text-align: center;
+footer hr {
+  margin-top: 1rem;
 }
 
 footer .secondFootContainer .copywright {
@@ -96,21 +104,16 @@ footer .secondFootContainer .copywright {
     margin: 0;
   }
 
-  footer .secondFootContainer .secondFootContainerInnerCont .subCont2 {
-    margin-left: 2rem;
+
+  footer .secondFootContainer .secondFootContainerInnerCont .subCont2 .subCont2InnerList {
+    justify-content: center;
   }
 
   footer .secondFootContainer .secondFootContainerInnerCont .subCont2,
   footer .secondFootContainer .secondFootContainerInnerCont .subCont3 {
-    width: fit-content;
-  }
-
-  footer .secondFootContainer .socials {
-    align-self: center;
-    margin-right: 0%;
-    margin-top: 1rem;
     width: 100%;
   }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -124,15 +127,6 @@ footer .secondFootContainer .copywright {
     margin-bottom: 0;
   }
 
-  footer .secondFootContainer .socials {
-    align-self: center;
-    margin-right: 0%;
-    margin-top: 1rem;
-  }
-
-  footer hr {
-    margin-top: 1rem;
-  }
 }
 
 @media screen and (max-width: 322px) {
@@ -143,7 +137,8 @@ footer .secondFootContainer .copywright {
   footer .secondFootContainer .secondFootContainerInnerCont .subCont1 .subCont1Inner {
     gap: 0;
   }
-  footer .secondFootContainer .secondFootContainerInnerCont .subCont1 .subCont1Inner h2{
+
+  footer .secondFootContainer .secondFootContainerInnerCont .subCont1 .subCont1Inner h2 {
     font-size: 1.8rem;
   }
 

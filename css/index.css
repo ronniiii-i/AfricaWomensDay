@@ -297,6 +297,9 @@
 .upcoming .text p{
   font-family: var(--pop);
 }
+.upcoming .text a{
+  font-weight: 700;
+}
 .upcoming #upcominggirls{
   width: 10%;
 }
